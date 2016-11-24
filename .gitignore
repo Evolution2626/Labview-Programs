@@ -14,3 +14,22 @@
 # Metadata
 *.aliases
 *.lvlps
+
+#Folders
+builds/
+Glyphs/
+Probes/
+Dependencies/
+LVAutoSave/
+AppBuilderCache/
+vicnvrt/
+VIObjCache/
+LVInternalReports/
+
+#programs to exclude
+Testwindows10/
+
+#Random files in labVIEW Data
+*.jpg
+FRCVersion.txt
+persistent.ini

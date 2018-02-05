@@ -1,0 +1,9982 @@
+####
+#Date: Jan 30, 2018 4:40:35 PM
+#OSName: Windows 10 Home 
+#OSVers: 10.0
+#OSBuild: 16299
+#AppName: LabVIEW
+#Version: 17.0 32-bit
+#AppKind: FDS
+#AppModDate: 3/15/2017 14:13 GMT
+#LabVIEW Base Address: 0x00130000
+
+
+InitExecSystem() call to GetCurrProcessNumProcessors() reports: 4 processors
+InitExecSystem() call to GetNumProcessors()            reports: 4 processors
+InitExecSystem()                                      will use: 4 processors
+starting LabVIEW Execution System 2 Thread 0 , capacity: 24 at [3600193243.34603024, (16:40:43.346030236 2018:01:30)]
+starting LabVIEW Execution System 2 Thread 1 , capacity: 24 at [3600193243.34603024, (16:40:43.346030236 2018:01:30)]
+starting LabVIEW Execution System 2 Thread 2 , capacity: 24 at [3600193243.34603024, (16:40:43.346030236 2018:01:30)]
+starting LabVIEW Execution System 2 Thread 3 , capacity: 24 at [3600193243.34603024, (16:40:43.346030236 2018:01:30)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Delete
+Window Move
+Create
+Text Edit
+Connector Pane
+Move
+Create
+Create
+Text Edit
+Move
+Delete
+Wiring
+Create
+
+<DEBUG_OUTPUT>
+2018-01-30 6:45:50.592 PM
+DWarn 0x667BD7ED: Insanity introduced by current transaction or undo/redo in VI Untitled 1.
+e:\builds\penguin\labview\branches\2017\dev\source\editor\undo.cpp(426) : DWarn 0x667BD7ED: Insanity introduced by current transaction or undo/redo in VI Untitled 1.
+minidump id: 71dabf77-4976-43b3-ad5d-3202786b67f0
+$Id: //labview/branches/2017/dev/source/editor/undo.cpp#9 $
+
+</DEBUG_OUTPUT>
+0x00482EB9 - LabVIEW <unknown> + 0
+0x62BDFEB9 - mgcore_SH_17_0 <unknown> + 0
+0x62BE09FC - mgcore_SH_17_0 <unknown> + 0
+0x009F96C6 - LabVIEW <unknown> + 0
+0x009ED80B - LabVIEW <unknown> + 0
+0x009E9C5B - LabVIEW <unknown> + 0
+0x009E9978 - LabVIEW <unknown> + 0
+0x009E8ACE - LabVIEW <unknown> + 0
+0x014329B3 - LabVIEW <unknown> + 0
+0x01433F85 - LabVIEW <unknown> + 0
+0x014306EB - LabVIEW <unknown> + 0
+0x01B6CE8A - LabVIEW <unknown> + 0
+0x01B7F5D2 - LabVIEW <unknown> + 0
+0x01C1E1E3 - LabVIEW <unknown> + 0
+0x01B6EB61 - LabVIEW <unknown> + 0
+0x01B6D15E - LabVIEW <unknown> + 0
+0x7766E0BB - USER32 <unknown> + 0
+0x77678849 - USER32 <unknown> + 0
+0x7767B145 - USER32 <unknown> + 0
+0x776690DC - USER32 <unknown> + 0
+0x77668C20 - USER32 <unknown> + 0
+0x01C026F2 - LabVIEW <unknown> + 0
+0x01C025EE - LabVIEW <unknown> + 0
+0x01C01A9C - LabVIEW <unknown> + 0
+0x611F1EC4 - QtManager452_2017 <unknown> + 0
+0x6107FC70 - NIQtCore_2017 <unknown> + 0
+0x00000000 - <unknown> <unknown> + 0
+
+Current transaction: 
+Create
+
+Front panel backuplist:
+
+  BkUpList (0x1B28EE24): n=774
+  current   previous
+    1B31814C      1B3197CC      ObjHeapHdrExtension
+    11B44F48      0      Annex
+    11B44FA8      0      Label
+    11B45008      0      Label
+    11B45068      0      Type Definition
+    11B450C8      0      Annex
+    11B45128      0      Annex
+    11B45188      0      MultiLabel
+    11B451E8      0      Numeric Label
+    11B45248      0      Label
+    11B452A8      0      List
+    11B45308      0      Label
+    11B45368      0      Type Definition
+    11B453C8      0      Annex
+    11B45428      0      Label
+    11B45488      0      Pane
+    11B454E8      0      Annex
+    11B45548      0      Label
+    11B455A8      0      List
+    11B45608      0      Annex
+    11B45668      0      Label
+    11B456C8      0      Label
+    11B45728      0      LvVariant
+    11B45788      0      Annex
+    11B457E8      0      Label
+    11B45848      0      Label
+    11B458A8      0      LvVariant
+    11B45908      0      Annex
+    11B45968      0      Label
+    11B459C8      0      Label
+    11B45A28      0      LvVariant
+    11B45A88      0      Annex
+    11B45AE8      0      Label
+    11B45B48      0      Label
+    11B45BA8      0      LvVariant
+    11B45C08      0      Annex
+    11B45C68      0      Label
+    11B45CC8      0      Label
+    11B45D28      0      LvVariant
+    11B45D88      0      Annex
+    11B45DE8      0      MultiCosmetic
+    11B45E48      0      Numeric Label
+    11B45EA8      0      Label
+    11B4ABC0      1A7D6FB8      List
+    11B4AC00      1A7D6F78      List
+    11B4AC40      0      Cosmetic
+    11B4AC80      0      List
+    11B4ACC0      0      Cosmetic
+    11B4AD00      0      Cosmetic
+    11B4AD40      0      Cosmetic
+    11B4AD80      0      Cosmetic
+    11B4ADC0      0      Cosmetic
+    11B4AE00      0      Cosmetic
+    11B4AE40      0      List
+    11B4AE80      0      Cosmetic
+    11B4AEC0      0      Cosmetic
+    11B4AF00      0      Cosmetic
+    11B4AF40      0      List
+    11B4AF80      0      Cosmetic
+    11B4AFC0      0      List
+    11B4B000      0      Cosmetic
+    11B4B040      0      Cosmetic
+    11B4B080      0      Cosmetic
+    11B4B0C0      0      Cosmetic
+    11B4B100      0      Cosmetic
+    11B4B140      0      Cosmetic
+    11B4B180      0      Cosmetic
+    11B4B1C0      0      Cosmetic
+    11B4B200      0      Cosmetic
+    11B4B240      0      Cosmetic
+    11B4B280      0      List
+    11B4B2C0      0      Cosmetic
+    196AD344      0      CLStrObject
+    1A25F904      0      BigMultiCosmetic
+    1A541504      0      Cluster
+    1A541BEC      0      Cluster
+    1A541C54      0      Cluster
+    1A541D24      0      Cluster
+    1A541D8C      0      Cluster
+    1A541EC4      0      Cluster
+    1A7813FC      0      Ring
+    1A781474      0      Ring
+    1A781564      0      Ring
+    1A7817BC      0      Ring
+    1A7D65B8      0      Cosmetic
+    1A7D65F8      0      Cosmetic
+    1A7D6638      0      Cosmetic
+    1A7D6678      0      Cosmetic
+    1A7D66B8      0      Cosmetic
+    1A7D66F8      0      Cosmetic
+    1A7D6738      0      List
+    1A7D6778      0      Cosmetic
+    1A7D67B8      0      Cosmetic
+    1A7D67F8      0      Cosmetic
+    1A7D6838      0      Cosmetic
+    1A7D6878      0      Cosmetic
+    1A7D68B8      0      Cosmetic
+    1A7D68F8      0      List
+    1A7D6938      0      Cosmetic
+    1A7D6978      0      Cosmetic
+    1A7D69B8      0      Cosmetic
+    1A7D69F8      0      Cosmetic
+    1A7D6A38      0      Cosmetic
+    1A7D6A78      0      Cosmetic
+    1A7D6AB8      0      List
+    1A7D6AF8      0      Cosmetic
+    1A7D6B38      0      Cosmetic
+    1A7D6B78      0      List
+    1A7D6BB8      0      Cosmetic
+    1A7D6BF8      0      List
+    1A7D6C38      0      List
+    1A7D6C78      0      Cosmetic
+    1A7D6CB8      0      Cosmetic
+    1A7D6CF8      0      Cosmetic
+    1A7D6D38      0      Cosmetic
+    1A7D6D78      0      Cosmetic
+    1A7D6DB8      0      List
+    1A7D6DF8      0      Cosmetic
+    1A7D6E38      0      Cosmetic
+    1A7D6E78      0      Cosmetic
+    1A7D6EB8      0      Cosmetic
+    1A7D6EF8      0      Cosmetic
+    1A7D6F38      0      Cosmetic
+    1A7D6FF8      0      Cosmetic
+    1A7D7038      0      Cosmetic
+    1A7D7078      0      List
+    1A7D75C0      0      Type Definition
+    1A7D7620      0      Label
+    1A7D8520      1AF175A0      Pane
+    1A7D8588      0      CrossList
+    1A7D85C0      0      CrossList
+    1A7D85F8      0      CrossList
+    1A7D8630      0      CrossList
+    1A7D8668      0      List
+    1A7D86A0      0      List
+    1A7D86D8      0      CrossList
+    1A7D8710      0      CrossList
+    1A7D8748      0      CrossList
+    1A7D8780      0      CrossList
+    1A7D87B8      0      List
+    1A7D87F0      0      List
+    1A7D8828      0      CrossList
+    1A7D8860      0      CrossList
+    1A7D8898      0      CrossList
+    1A7D88D0      0      CrossList
+    1A7D8908      0      List
+    1A7D8940      0      CrossList
+    1A7D8978      0      CrossList
+    1A7D89B0      0      List
+    1A7D89E8      0      CrossList
+    1A7D8A20      0      CrossList
+    1A7D8A58      0      List
+    1A7D8A90      0      CrossList
+    1A7D8AC8      0      CrossList
+    1A7D8B00      0      List
+    1A7D8B38      0      CrossList
+    1A7D8B70      0      CrossList
+    1A7D8BA8      0      CrossList
+    1A7D8BE0      0      CrossList
+    1A7D8C18      0      List
+    1A7D8C50      0      CrossList
+    1A7D8C88      0      CrossList
+    1A7D8CC0      0      List
+    1A7D8CF8      0      CrossList
+    1A7D8D30      0      CrossList
+    1A7D8D68      0      CrossList
+    1A7D8DA0      0      CrossList
+    1A7D8DD8      0      CrossList
+    1A7D8E10      0      CrossList
+    1A7D8E48      0      List
+    1A7D8E80      0      List
+    1A7D8EB8      0      CrossList
+    1A7D8EF0      0      CrossList
+    1A7D8F28      0      CrossList
+    1A7D8F60      0      CrossList
+    1A7D8F98      0      CrossList
+    1A7D8FD0      0      List
+    1A7D9008      0      CrossList
+    1A7D9040      0      CrossList
+    1A7D9078      0      CrossList
+    1A7D90B0      0      CrossList
+    1A7D90E8      0      CrossList
+    1A7D9120      0      List
+    1A7D9158      0      List
+    1A7D9190      0      CrossList
+    1A7D91C8      0      CrossList
+    1A7D9200      0      CrossList
+    1A7D9238      0      CrossList
+    1A7D9270      0      List
+    1A7FDDD0      0      List
+    1A7FDE30      0      Numeric
+    1A7FDE90      0      Annex
+    1A7FDEF0      0      Label
+    1A7FDF50      0      Pane
+    1A7FDFB0      0      Annex
+    1A7FE010      0      Label
+    1A7FE070      0      Annex
+    1A7FE0D0      0      MultiCosmetic
+    1A7FE130      0      MultiLabel
+    1A7FE190      0      Label
+    1A7FE1F0      0      Boolean
+    1A7FE250      0      Annex
+    1A7FE2B0      0      Label
+    1A7FE310      0      MultiCosmetic
+    1A7FE370      0      Label
+    1A7FE3D0      0      String
+    1A7FE430      0      Annex
+    1A7FE490      0      MultiCosmetic
+    1A7FE4F0      0      Numeric Label
+    1A7FE550      0      Label
+    1A7FE5B0      0      List
+    1A7FE610      0      Numeric
+    1A7FE670      0      Annex
+    1A7FE6D0      0      MultiLabel
+    1A7FE730      0      Label
+    1A7FE790      0      Boolean
+    1A7FE7F0      0      Annex
+    1A7FE850      0      Label
+    1A7FE8B0      0      Pane
+    1A7FE910      0      Annex
+    1A7FE970      0      Label
+    1A7FE9D0      0      Annex
+    1A7FEA30      0      Label
+    1A7FEA90      0      Pane
+    1A7FEAF0      0      Annex
+    1A7FEB50      0      Label
+    1A7FEBB0      0      Label
+    1A7FEC10      0      List
+    1A7FEC70      0      Label
+    1A7FECD0      0      Label
+    1AF17600      0      FrontPanelDataController
+    1AF17660      0      Annex
+    1AF176C8      0      List
+    1AF17728      0      Annex
+    1AF17788      0      MultiCosmetic
+    1AF177E8      0      Numeric Label
+    1AF17848      0      Label
+    1AF178A8      0      List
+    1AF17908      0      Numeric
+    1AF17968      0      Annex
+    1AF179C8      0      MultiLabel
+    1AF17A28      0      Numeric Label
+    1AF17A88      0      Label
+    1AF17AE8      0      List
+    1AF17B48      0      Annex
+    1AF17BA8      0      Label
+    1AF17C08      0      Type Definition
+    1AF17C68      0      Annex
+    1AF17CC8      0      Annex
+    1AF17D28      0      MultiLabel
+    1AF17D88      0      Numeric Label
+    1AF17DE8      0      Label
+    1AF17E48      0      List
+    1AF17EA8      0      Label
+    1AF17F08      0      Type Definition
+    1AF17F68      0      Annex
+    1AF17FC8      0      Label
+    1AF18028      0      Pane
+    1AF18088      0      Annex
+    1AF180E8      0      Label
+    1AF18148      0      Annex
+    1AF181A8      0      Annex
+    1AF18208      0      MultiLabel
+    1AF18268      0      Numeric Label
+    1AF182C8      0      Label
+    1AF18328      0      List
+    1AF18388      0      Label
+    1AF183E8      0      Type Definition
+    1AF18448      0      Annex
+    1AF184A8      0      List
+    1AF18508      0      Annex
+    1AF18568      0      MultiCosmetic
+    1AF185C8      0      Numeric Label
+    1AF18628      0      Label
+    1B30256C      0      CLStrObject
+    1B4452CC      0      CLStrObject
+    1B91B74C      0      BigMultiCosmetic
+    1B91B7CC      0      BigMultiCosmetic
+    1B91B84C      0      BigMultiCosmetic
+    1B91B8CC      0      BigMultiCosmetic
+    1B91B94C      0      BigMultiCosmetic
+    1B91B9CC      0      BigMultiCosmetic
+    1B91BA4C      0      BigMultiCosmetic
+    1B91BACC      0      BigMultiCosmetic
+    1B91BB4C      0      BigMultiCosmetic
+    1B91C04C      0      BigMultiCosmetic
+    1B91C0CC      0      BigMultiCosmetic
+    1B91C14C      0      BigMultiCosmetic
+    1B91C64C      0      BigMultiCosmetic
+    1B91C6CC      0      BigMultiCosmetic
+    1B91C74C      0      BigMultiCosmetic
+    1B91C7CC      0      BigMultiCosmetic
+    1B91C9CC      1B91C94C      Front Panel
+    1B91CCCC      0      BigMultiCosmetic
+    1B91CD4C      0      BigMultiCosmetic
+    1B91CDCC      0      BigMultiCosmetic
+    1B91CE4C      0      BigMultiCosmetic
+    1B91CECC      0      BigMultiCosmetic
+    1B91CF4C      0      BigMultiCosmetic
+    1B91CFCC      0      BigMultiCosmetic
+    1B91D04C      0      BigMultiCosmetic
+    1B91D0CC      0      BigMultiCosmetic
+    1B91D14C      0      BigMultiCosmetic
+    1B9E4720      0      List
+    1B9E4780      0      Numeric
+    1B9E47E0      0      List
+    1B9E4840      0      Annex
+    1B9E48A0      0      Label
+    1B9E4900      0      MultiCosmetic
+    1B9E4960      0      MultiCosmetic
+    1B9E49C0      0      Label
+    1B9E4A20      0      String
+    1B9E4A80      0      Annex
+    1B9E4AE0      0      MultiCosmetic
+    1B9E4B40      0      Numeric Label
+    1B9E4BA0      0      Label
+    1B9E4C00      0      List
+    1B9E4C60      0      Numeric
+    1B9E4CC0      0      Annex
+    1B9E4D20      0      MultiCosmetic
+    1B9E4D80      0      Numeric Label
+    1B9E4DE0      0      Label
+    1B9E4E40      0      List
+    1B9E4EA0      0      Numeric
+    1B9E4F00      0      Annex
+    1B9E4F60      0      MultiCosmetic
+    1B9E4FC0      0      Numeric Label
+    1B9E5020      0      Label
+    1B9E5080      0      List
+    1B9E50E0      0      Numeric
+    1B9E5140      0      Annex
+    1B9E51A0      0      MultiCosmetic
+    1B9E5200      0      Numeric Label
+    1B9E5260      0      Label
+    1B9E52C0      0      List
+    1B9E5320      0      Numeric
+    1B9E5380      0      Annex
+    1B9E53E0      0      MultiCosmetic
+    1B9E5440      0      Numeric Label
+    1B9E54A0      0      Label
+    1B9E5500      0      List
+    1B9E5560      0      Numeric
+    1B9E55C0      0      Annex
+    1B9E5620      0      Label
+    1B9E5680      0      Pane
+    1E4713B0      0      CrossList
+    1E4713E8      0      CrossList
+    1E471420      0      CrossList
+    1E471458      0      List
+    1E471490      0      CrossList
+    1E4714C8      0      CrossList
+    1E471500      0      CrossList
+    1E471538      0      CrossList
+    1E471570      0      CrossList
+    1E4715A8      0      List
+    1E4715E0      0      CrossList
+    1E471618      0      CrossList
+    1E471650      0      CrossList
+    1E471688      0      CrossList
+    1E4716C0      0      List
+    1E4716F8      0      CrossList
+    1E471730      0      CrossList
+    1E471768      0      CrossList
+    1E4717A0      0      CrossList
+    1E4717D8      0      CrossList
+    1E471810      0      List
+    1E471848      0      CrossList
+    1E471880      0      CrossList
+    1E4718B8      0      CrossList
+    1E4718F0      0      CrossList
+    1E471928      0      List
+    1E471960      0      CrossList
+    1E471998      0      CrossList
+    1E4719D0      0      CrossList
+    1E471A08      0      CrossList
+    1E471A40      0      CrossList
+    1E471A78      0      CrossList
+    1E471AB0      0      CrossList
+    1E471AE8      0      CrossList
+    1E471B20      0      CrossList
+    1E471B58      0      CrossList
+    1E471B90      0      CrossList
+    1E471BC8      0      CrossList
+    1E471C00      0      CrossList
+    1E471C38      0      CrossList
+    1E471C70      0      CrossList
+    1E471CA8      0      CrossList
+
+
+Object 0x1b31814c:
+root=0x1B91C9CC
+selList=0x1A7D94A0
+idx=0xB
+state=0x0000
+masterWizard=0x00000000
+blinkList=0x1A7D9468
+textObj=0x00000000
+textRec=0x00000000
+stash=0x00000000
+orderList=0x00000000
+focusPath=0x1B8EBCD8
+Window record fields:
+	mWind = 0x081B8EBA1C
+	mFlags = 0
+	mEdittimePos = (-1,-1)
+	mEdittimeWidth = 0
+	mEdittimeHeight = 0
+volFields:mKeyEventState=0
+dBounds=tlbr(0, 0, 0, 0)
+pBounds=tlbr(46, 0, 460, 765)
+origin=hv(327,114)
+heapMods=0x80000087
+ctleditObj=0x00000000
+bkupList=0x1B28EE24
+bkupState=0
+bkupListList=0x1A7D77A0
+selState=0
+grabHandleList=0x1A7D83A0
+
+
+
+
+Object 0x1b3197cc:
+root=0x1B91C9CC
+selList=0x00000000
+idx=0xB
+state=0x0000
+masterWizard=0x00000000
+blinkList=0x1A7D9468
+textObj=0x00000000
+textRec=0x00000000
+stash=0x00000000
+orderList=0x00000000
+focusPath=0x1B8EBFD0
+Window record fields:
+	mWind = 0x081B8EBA1C
+	mFlags = 0
+	mEdittimePos = (-1,-1)
+	mEdittimeWidth = 0
+	mEdittimeHeight = 0
+volFields:mKeyEventState=0
+dBounds=tlbr(0, 0, 0, 0)
+pBounds=tlbr(46, 0, 460, 765)
+origin=hv(327,114)
+heapMods=0x80000087
+ctleditObj=0x00000000
+bkupList=0x1A4B2C3C
+bkupState=0
+bkupListList=0x00000000
+selState=0
+grabHandleList=0x1A7D83A0
+
+
+
+
+Object 0x11b44f48:
+flags=0x0
+owner=0x1A541EC4
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8630): n=0: 
+refList (0x1A7D85F8): n=0: 
+rsrcID=21607
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b44fa8:
+flags=0x17114E
+owner=0x1A541EC4
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(78, 6, 95, 153) (in panel coords tlbr(332, 220, 349, 367))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBF04
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBCBC
+ viewrect= tlbr(79, 7, 94, 152)
+ docrect= (79,8,94,152)
+textLen= 23
+text= "PWMDeadband Coefficient"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45008:
+flags=0x171146
+owner=0x11B45068
+partID[16]= Name Label
+masterPart[8010]= Type Def's Control
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(78, 6, 95, 63) (in panel coords tlbr(332, 220, 349, 277))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBA0C
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBD2C
+ viewrect= tlbr(79, 7, 94, 62)
+ docrect= (79,8,94,62)
+textLen= 8
+text= "DeadBand"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45068:
+flags=0x1020
+owner=0x11B45488
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(78, 3, 399, 121) (in panel coords: tlbr(332, 217, 653, 335))
+partsList (0x1A7D86A0): n=3: 11B45008,1A541EC4,1AF18448,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=46
+@0x0000: 'DeadBand': typedef 'WPI_PWMDeadband.ctl'{0xC5224BA1, "Oct 20, 2008 10:52:17 AM"} cluster of 7 elements
+    @0x0000: 'Name': string
+    @0x0004: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0008: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x000C: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0010: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0014: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0018: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+
+stamp=0xC5224BA1 (Oct 20, 2008 10:52:17 AM)
+vi=0x07CE6CC0
+def val matches ctl VI, calculated = true, result = true
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b450c8:
+flags=0x0
+owner=0x11B45368
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8710): n=0: 
+refList (0x1A7D86D8): n=0: 
+rsrcID=3403
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45128:
+flags=0x0
+owner=0x1A7813FC
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8780): n=0: 
+refList (0x1A7D8748): n=0: 
+rsrcID=21605
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45188:
+flags=0x936
+owner=0x1A7813FC
+partID[12]= Ring Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(61, 15, 80, 94) (in panel coords tlbr(315, 229, 334, 308))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B0063E0
+ flags = 0x0
+ mode = 0x804404 (tHorizMargin | tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EC0C4
+ viewrect= tlbr(62, 16, 79, 93)
+ docrect= (62,18,77,92)
+textLen= 5
+text= "PWM 1"
+index=1
+CPStrHandle buf=0x1B006464
+  0: PWM 0
+  1: PWM 1
+  2: PWM 2
+  3: PWM 3
+  4: PWM 4
+  5: PWM 5
+  6: PWM 6
+  7: PWM 7
+  8: PWM 8
+  9: PWM 9
+  10: PWM MXP 0
+  11: PWM MXP 1
+  12: PWM MXP 2
+  13: PWM MXP 3
+  14: PWM MXP 4
+  15: PWM MXP 5
+  16: PWM MXP 6
+  17: PWM MXP 7
+  18: PWM MXP 8
+  19: PWM MXP 9
+  20: Invalid
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b451e8:
+flags=0x4194A
+owner=0x1A7813FC
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(61, 100, 78, 116) (in panel coords tlbr(315, 314, 332, 330))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B006414
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBC70
+ viewrect= tlbr(62, 101, 77, 115)
+ docrect= (62,103,77,114)
+textLen= 1
+text= "1"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45248:
+flags=0x17114E
+owner=0x1A7813FC
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(41, 11, 58, 20) (in panel coords tlbr(295, 225, 312, 234))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBFF8
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B006418
+ viewrect= tlbr(42, 12, 57, 19)
+ docrect= (42,13,57,19)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b452a8:
+List (0x11B452A8): n=7: 11B45248,11B451E8,11B45188,1B91CECC,1B91CE4C,
+    1A7D65F8,11B45128,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45308:
+flags=0x171146
+owner=0x11B45368
+partID[16]= Name Label
+masterPart[8010]= Type Def's Control
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(41, 11, 58, 90) (in panel coords tlbr(295, 225, 312, 304))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBE60
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBE00
+ viewrect= tlbr(42, 12, 57, 89)
+ docrect= (42,13,57,89)
+textLen= 11
+text= "PWM Channel"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45368:
+flags=0x1024
+owner=0x11B45488
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(41, 0, 84, 98) (in panel coords: tlbr(295, 214, 338, 312))
+partsList (0x1A7D87B8): n=3: 11B45308,1A7813FC,11B450C8,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=44
+@0x0000: 'PWM Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PWM MXP 3,
+ PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+
+stamp=0xCE313416 (Aug 14, 2013 9:18:14 AM)
+vi=0x07CE5D00
+def val matches ctl VI, calculated = true, result = false
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b453c8:
+flags=0x0
+owner=0x11B45488
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8860): n=0: 
+refList (0x1A7D8828): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45428:
+flags=0x17114A
+owner=0x11B45488
+partID[16]= Name Label
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x5
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(5, 215, 22, 244) (in panel coords tlbr(295, 214, 312, 243))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B00641C
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC02C
+ viewrect= tlbr(6, 216, 21, 243)
+ docrect= (6,217,21,243)
+textLen= 4
+text= "Pane"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45488:
+Pane
+flags=0x261110
+owner=0x1A541D24
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(5, 215, 363, 336) (in panel coords: tlbr(295, 214, 653, 335))
+partsList (0x1A7D6738): n=6: 11B45428,1A7D66F8,1A7D66B8,1A7D6678,
+    1A7D6638,11B453C8,
+zPlaneList (0x11B4AF40): n=2: 11B45068,11B45368,
+paneFlags=0x40101
+origin=hv(0,-41)
+docBounds=tlbr(-48, -30, 488, 151)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b454e8:
+flags=0x0
+owner=0x1A541D24
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D88D0): n=0: 
+refList (0x1A7D8898): n=0: 
+rsrcID=21607
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45548:
+flags=0x171146
+owner=0x1A541D24
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(-18, 211, -1, 243) (in panel coords tlbr(272, 210, 289, 242))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBC2C
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBFA0
+ viewrect= tlbr(-17, 212, -2, 242)
+ docrect= (-17,213,-2,242)
+textLen= 3
+text= "PWM"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b455a8:
+List (0x11B455A8): n=6: 11B45728,11B458A8,11B45A28,11B45BA8,11B45D28,
+    1A7FDE30,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45608:
+flags=0x0
+owner=0x11B45728
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8978): n=0: 
+refList (0x1A7D8940): n=0: 
+rsrcID=3310
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45668:
+flags=0x932
+owner=0x11B45728
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEC03B9 (kPiccImage)
+bounds= tlbr(184, 7, 201, 59) (in panel coords tlbr(657, 26, 674, 78))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+textRec=0x1B00640C
+ flags = 0x620
+ mode = 0x803404 (tHorizMargin | tHScroll | tVScroll | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xB3B3B3
+ text handle = 0x1B0063C0
+ viewrect= tlbr(185, 8, 200, 58)
+ docrect= (185,10,185,40)
+textLen= 14
+text= "Percent VBus
+"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b456c8:
+flags=0x171146
+owner=0x11B45728
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(164, 1, 181, 75) (in panel coords tlbr(637, 20, 654, 94))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B006410
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBDEC
+ viewrect= tlbr(165, 2, 180, 74)
+ docrect= (165,3,180,74)
+textLen= 14
+text= "Disable VI Ref"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45728:
+flags=0x10000
+owner=0x1A7FDF50
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(164, 1, 203, 75) (in panel coords: tlbr(637, 20, 676, 94))
+partsList (0x1A7D89B0): n=4: 11B456C8,11B45668,1A7D67F8,11B45608,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=42
+@0x0000: 'Disable VI Ref': Variant
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45788:
+flags=0x0
+owner=0x11B458A8
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8A20): n=0: 
+refList (0x1A7D89E8): n=0: 
+rsrcID=3310
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b457e8:
+flags=0x932
+owner=0x11B458A8
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEC03B9 (kPiccImage)
+bounds= tlbr(145, 7, 162, 59) (in panel coords tlbr(618, 26, 635, 78))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+textRec=0x1B8EBC74
+ flags = 0x620
+ mode = 0x803404 (tHorizMargin | tHScroll | tVScroll | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xB3B3B3
+ text handle = 0x1B8EC0A8
+ viewrect= tlbr(146, 8, 161, 58)
+ docrect= (146,10,146,40)
+textLen= 11
+text= "12.000E+0
+"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45848:
+flags=0x171146
+owner=0x11B458A8
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(125, 1, 142, 72) (in panel coords tlbr(598, 20, 615, 91))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBFB4
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBED4
+ viewrect= tlbr(126, 2, 141, 71)
+ docrect= (126,3,141,71)
+textLen= 13
+text= "Enable VI Ref"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b458a8:
+flags=0x10000
+owner=0x1A7FDF50
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(125, 1, 164, 72) (in panel coords: tlbr(598, 20, 637, 91))
+partsList (0x1A7D8A58): n=4: 11B45848,11B457E8,1A7D6838,11B45788,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=41
+@0x0000: 'Enable VI Ref': Variant
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45908:
+flags=0x0
+owner=0x11B45A28
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8AC8): n=0: 
+refList (0x1A7D8A90): n=0: 
+rsrcID=3310
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45968:
+flags=0x932
+owner=0x11B45A28
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEC03B9 (kPiccImage)
+bounds= tlbr(106, 7, 123, 59) (in panel coords tlbr(579, 26, 596, 78))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+textRec=0x1B8EBF64
+ flags = 0x620
+ mode = 0x803404 (tHorizMargin | tHScroll | tVScroll | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xB3B3B3
+ text handle = 0x1B8EC098
+ viewrect= tlbr(107, 8, 122, 58)
+ docrect= (107,10,107,40)
+textLen= 10
+text= "00000000
+"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b459c8:
+flags=0x171146
+owner=0x11B45A28
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(86, 1, 103, 93) (in panel coords tlbr(559, 20, 576, 112))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B00645C
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B006444
+ viewrect= tlbr(87, 2, 102, 92)
+ docrect= (87,3,102,92)
+textLen= 16
+text= "GetOutput VI Ref"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45a28:
+flags=0x10000
+owner=0x1A7FDF50
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(86, 1, 125, 93) (in panel coords: tlbr(559, 20, 598, 112))
+partsList (0x1A7D8B00): n=4: 11B459C8,11B45968,1A7D6878,11B45908,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=40
+@0x0000: 'GetOutput VI Ref': Variant
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45a88:
+flags=0x0
+owner=0x11B45BA8
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8B70): n=0: 
+refList (0x1A7D8B38): n=0: 
+rsrcID=3310
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45ae8:
+flags=0x932
+owner=0x11B45BA8
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEC03B9 (kPiccImage)
+bounds= tlbr(67, 7, 84, 59) (in panel coords tlbr(540, 26, 557, 78))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+textRec=0x1B8EBE54
+ flags = 0x620
+ mode = 0x803404 (tHorizMargin | tHScroll | tVScroll | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xB3B3B3
+ text handle = 0x1B0063F8
+ viewrect= tlbr(68, 8, 83, 58)
+ docrect= (68,10,68,40)
+textLen= 14
+text= "Percent VBus
+"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45b48:
+flags=0x171146
+owner=0x11B45BA8
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(47, 1, 64, 91) (in panel coords tlbr(520, 20, 537, 110))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC078
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBF7C
+ viewrect= tlbr(48, 2, 63, 90)
+ docrect= (48,3,63,90)
+textLen= 16
+text= "SetOutput VI Ref"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45ba8:
+flags=0x10000
+owner=0x1A7FDF50
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(47, 1, 86, 91) (in panel coords: tlbr(520, 20, 559, 110))
+partsList (0x1A7D8CC0): n=4: 11B45B48,11B45AE8,1A7D68B8,11B45A88,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=39
+@0x0000: 'SetOutput VI Ref': Variant
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45c08:
+flags=0x0
+owner=0x11B45D28
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8BE0): n=0: 
+refList (0x1A7D8BA8): n=0: 
+rsrcID=3310
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45c68:
+flags=0x932
+owner=0x11B45D28
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEC03B9 (kPiccImage)
+bounds= tlbr(224, 7, 307, 143) (in panel coords tlbr(697, 26, 780, 162))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+textRec=0x1B8EBFC0
+ flags = 0x600
+ mode = 0x803404 (tHorizMargin | tHScroll | tVScroll | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xB3B3B3
+ text handle = 0x1B8EBCD4
+ viewrect= tlbr(225, 8, 306, 142)
+ docrect= (225,10,240,124)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45cc8:
+flags=0x171146
+owner=0x11B45D28
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(203, 1, 220, 28) (in panel coords tlbr(676, 20, 693, 47))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBA70
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBC4C
+ viewrect= tlbr(204, 2, 219, 27)
+ docrect= (204,3,219,27)
+textLen= 4
+text= "Data"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45d28:
+flags=0x10000
+owner=0x1A7FDF50
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(203, 1, 309, 145) (in panel coords: tlbr(676, 20, 782, 164))
+partsList (0x1A7D8C18): n=4: 11B45CC8,11B45C68,1A7D6938,11B45C08,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=38
+@0x0000: 'Data': Variant
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45d88:
+flags=0x0
+owner=0x1A7FDE30
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8C88): n=0: 
+refList (0x1A7D8C50): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45de8:
+flags=0x193A
+owner=0x1A7FDE30
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(26, 16, 43, 22) (in panel coords tlbr(499, 35, 516, 41))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45e48:
+flags=0x40932
+owner=0x1A7FDE30
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(26, 16, 43, 62) (in panel coords tlbr(499, 35, 516, 81))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B006408
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B006404
+ viewrect= tlbr(27, 17, 42, 61)
+ docrect= (27,19,42,60)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b45ea8:
+flags=0x171146
+owner=0x1A7FDE30
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(5, 12, 22, 97) (in panel coords tlbr(478, 31, 495, 116))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBE04
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B006400
+ viewrect= tlbr(6, 13, 21, 96)
+ docrect= (6,14,21,96)
+textLen= 13
+text= "Device Number"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4abc0:
+List (0x11B4ABC0): n=2: 1AF17600,1A7D8100,
+
+
+
+
+Object 0x1a7d6fb8:
+List (0x1A7D6FB8): n=1: 1A7D8100,
+
+
+
+
+Object 0x11b4ac00:
+List (0x11B4AC00): n=2: 1A7D8100,1AF17600,
+
+
+
+
+Object 0x1a7d6f78:
+List (0x1A7D6F78): n=1: 1A7D8100,
+
+
+
+
+Object 0x11b4ac40:
+flags=0x1917
+owner=0x1AF17908
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(105, 15, 130, 96) (in panel coords tlbr(779, 206, 804, 287))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ac80:
+List (0x11B4AC80): n=3: 1AF17908,1AF17C08,1AF17F08,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4acc0:
+flags=0x1917
+owner=0x1A781564
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(63, 15, 88, 100) (in panel coords tlbr(737, 206, 762, 291))
+fgColor=0xD2D2D2
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ad00:
+flags=0x1917
+owner=0x1A781474
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(20, 15, 47, 102) (in panel coords tlbr(694, 206, 721, 293))
+fgColor=0xD2D2D2
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ad40:
+flags=0x1073
+owner=0x1AF18028
+partID[28]= Pane Content Area
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x78
+image [IMAGE] 0xFA80066F (kPiccImage)
+bounds= tlbr(388, 196, 514, 334) (in panel coords tlbr(678, 195, 804, 333))
+fgColor=0x969696
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ad80:
+flags=0x1D7F
+owner=0x1AF18028
+partID[44]= Extra Frame Part
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xA
+image [IMAGE] 0xFD26051C (kPiccImage)
+bounds= tlbr(514, 334, 531, 351) (in panel coords tlbr(804, 333, 821, 350))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4adc0:
+flags=0x1D7E
+owner=0x1AF18028
+partID[38]= X Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x38
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(514, 196, 531, 334) (in panel coords tlbr(804, 195, 821, 333))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ae00:
+flags=0x1D7E
+owner=0x1AF18028
+partID[39]= Y Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xC2
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(388, 334, 514, 351) (in panel coords tlbr(678, 333, 804, 350))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ae40:
+List (0x11B4AE40): n=6: 1AF17FC8,11B4AE00,11B4ADC0,11B4AD80,11B4AD40,
+    1AF17F68,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4ae80:
+flags=0x1917
+owner=0x1A541BEC
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(384, 192, 518, 338) (in panel coords tlbr(674, 191, 808, 337))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4aec0:
+flags=0x937
+owner=0x1A541BEC
+partID[28]= Content Area
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(388, 196, 514, 334) (in panel coords tlbr(678, 195, 804, 333))
+fgColor=0xA6A6A6
+bgColor=0xA6A6A6
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4af00:
+flags=0x1917
+owner=0x1A7817BC
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(137, 18, 164, 126) (in panel coords tlbr(427, 17, 454, 125))
+fgColor=0xD2D2D2
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4af40:
+List (0x11B4AF40): n=2: 11B45068,11B45368,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4af80:
+flags=0x1917
+owner=0x1B9E4A20
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(-22, 18, 5, 118) (in panel coords tlbr(370, 221, 397, 321))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4afc0:
+List (0x11B4AFC0): n=6: 1B9E49C0,1B9E4960,1B9E4900,1B9E48A0,11B4AF80,
+    1B9E4840,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b000:
+flags=0x1917
+owner=0x1B9E4C60
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(190, 29, 215, 83) (in panel coords tlbr(582, 232, 607, 286))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b040:
+flags=0x1917
+owner=0x1B9E4EA0
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(148, 29, 173, 83) (in panel coords tlbr(540, 232, 565, 286))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b080:
+flags=0x1917
+owner=0x1B9E50E0
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(106, 29, 131, 83) (in panel coords tlbr(498, 232, 523, 286))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b0c0:
+flags=0x1917
+owner=0x1B9E4780
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(232, 29, 257, 83) (in panel coords tlbr(624, 232, 649, 286))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b100:
+flags=0x1917
+owner=0x1B9E5320
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(64, 29, 89, 83) (in panel coords tlbr(456, 232, 481, 286))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b140:
+flags=0x1917
+owner=0x1B9E5560
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(22, 29, 47, 83) (in panel coords tlbr(414, 232, 439, 286))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b180:
+flags=0x1073
+owner=0x1B9E5680
+partID[28]= Pane Content Area
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x78
+image [IMAGE] 0xFA80066F (kPiccImage)
+bounds= tlbr(97, 7, 395, 117) (in panel coords tlbr(351, 221, 649, 331))
+fgColor=0x969696
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b1c0:
+flags=0x1D7F
+owner=0x1B9E5680
+partID[44]= Extra Frame Part
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xA
+image [IMAGE] 0xFD26051C (kPiccImage)
+bounds= tlbr(395, 117, 412, 134) (in panel coords tlbr(649, 331, 666, 348))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b200:
+flags=0x1D7E
+owner=0x1B9E5680
+partID[38]= X Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x38
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(395, 7, 412, 117) (in panel coords tlbr(649, 221, 666, 331))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b240:
+flags=0x1D7E
+owner=0x1B9E5680
+partID[39]= Y Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xC2
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(97, 117, 395, 134) (in panel coords tlbr(351, 331, 649, 348))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b280:
+List (0x11B4B280): n=6: 1B9E5620,11B4B240,11B4B200,11B4B1C0,11B4B180,
+    1B9E55C0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x11b4b2c0:
+flags=0x1917
+owner=0x1A541EC4
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(93, 3, 399, 121) (in panel coords tlbr(347, 217, 653, 335))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x196ad344:
+CLStrObj:  num strings=1
+0 = <<B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.
+
+Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.>
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a25f904:
+flags=0x912
+owner=0x1A7FE790
+partID[21]= Boolean Button
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x22630 (kLVPictImage)
+bounds= tlbr(142, 94, 162, 114) (in panel coords tlbr(313, 20, 333, 40))
+fgColor=0x0
+bgColor=0xFFFFFF
+nCosms=0x4
+index=0x0
+table[0]= 
+    bounds= tlbr(142, 94, 162, 114) (in panel coords tlbr(313, 20, 333, 40))
+    fgColor=0x0
+    bgColor=0xFFFFFF
+    image=0x22630 (kLVPictImage)
+table[1]= 
+    bounds= tlbr(142, 94, 162, 114) (in panel coords tlbr(313, 20, 333, 40))
+    fgColor=0x0
+    bgColor=0xFFFFFF
+    image=0x22631 (kLVPictImage)
+table[2]= 
+    bounds= tlbr(142, 94, 162, 114) (in panel coords tlbr(313, 20, 333, 40))
+    fgColor=0x0
+    bgColor=0xFFFFFF
+    image=0x22630 (kLVPictImage)
+table[3]= 
+    bounds= tlbr(142, 94, 162, 114) (in panel coords tlbr(313, 20, 333, 40))
+    fgColor=0x0
+    bgColor=0xFFFFFF
+    image=0x22631 (kLVPictImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a541504:
+flags=0x600004
+owner=0x1A7FEA90
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(-17, 10, 121, 165) (in panel coords: tlbr(273, 9, 411, 164))
+partsList (0x1A7D9120): n=4: 1A7FE970,1A7D6E38,1A7D6DF8,1A7FE910,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=31
+@0x0000: 'DeviceStatus': cluster of 3 elements
+    @0x0000: 'status': boolean (TRUE or FALSE)
+    @0x0001: 'code': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0005: 'source': string
+
+ddoList (0x1A7D8E80): n=3: 1A7FE790,1A7FE610,1A7FE3D0,
+pane = 0x1A7FE8B0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a541bec:
+flags=0x2600004
+owner=0x1A7FEA90
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(365, 192, 518, 338) (in panel coords: tlbr(655, 191, 808, 337))
+partsList (0x1E471810): n=4: 1AF180E8,11B4AEC0,11B4AE80,1AF18088,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=57
+@0x0000: 'DIO PWM': cluster of 3 elements
+    @0x0000: 'PWM "Enable" Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 
+2, PWM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+    @0x0001: 'DIOChannel': typedef 'FPGA_DIOChannel.ctl'{0xD40F3554, "Sep 26, 2016 4:28:04 PM"} unsigned byte [8-bit integer (0 to 255) enum {DIO 0, DIO 1, DIO 2, DIO 3, DIO 4, DIO 5, DIO 6, DIO 7, DIO 8, DIO 9, DIO MXP 0, DIO MXP 1, DIO MXP 2, DIO MXP 3,
+ DIO MXP 4, DIO MXP 5, DIO MXP 6, DIO MXP 7, DIO MXP 8, DIO MXP 9, DIO MXP 10, DIO MXP 11, DIO MXP 12, DIO MXP 13, DIO MXP 14, DIO MXP 15, SPI Port CS1, SPI Port CS2, SPI Port CS3, SPI Port MISO, SPI Port MOSI, Invalid}
+    @0x0002: 'PWM Rate': double [64-bit real (~15 digit precision)]
+
+ddoList (0x1E471458): n=3: 1AF17F08,1AF17C08,1AF17908,
+pane = 0x1AF18028
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a541c54:
+flags=0x600004
+owner=0x1A7D75C0
+partID[8010]= Type Def's Control
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+bounds= tlbr(222, 2, 766, 343) (in panel coords: tlbr(268, 2, 812, 343))
+partsList (0x1A7FEC10): n=7: 1A7FEBB0,1A7FECD0,1A7FEC70,1A7FEB50,
+    1A7D7038,1A7D6FF8,1A7FEAF0,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=30
+@0x0000: '': cluster of 6 elements
+    @0x0000: 'DeviceStatus': cluster of 3 elements
+        @0x0000: 'status': boolean (TRUE or FALSE)
+        @0x0001: 'code': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0005: 'source': string
+    @0x0009: 'Type': typedef 'WPI_MotorControlType.ctl'{0x0, "non-strict"} unsigned word [16-bit integer (0 to 65535)] enum {PWM, CAN, DIO PWM}
+    @0x000B: 'PWM': cluster of 2 elements
+        @0x000B: 'PWM Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PW
+M MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+        @0x000C: 'DeadBand': typedef 'WPI_PWMDeadband.ctl'{0xC5224BA1, "Oct 20, 2008 10:52:17 AM"} cluster of 7 elements
+            @0x000C: 'Name': string
+            @0x0010: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0014: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0018: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x001C: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0020: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0024: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+    @0x0026: 'CAN': cluster of 6 elements
+        @0x0026: 'Device Number': unsigned byte [8-bit integer (0 to 255)
+        @0x0027: 'SetOutput VI Ref': Variant
+        @0x002B: 'GetOutput VI Ref': Variant
+        @0x002F: 'Enable VI Ref': Variant
+        @0x0033: 'Disable VI Ref': Variant
+        @0x0037: 'Data': Variant
+    @0x003B: 'Invert': boolean (TRUE or FALSE)
+    @0x003C: 'DIO PWM': cluster of 3 elements
+        @0x003C: 'PWM "Enable" Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM 
+MXP 2, PWM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+        @0x003D: 'DIOChannel': typedef 'FPGA_DIOChannel.ctl'{0xD40F3554, "Sep 26, 2016 4:28:04 PM"} unsigned byte [8-bit integer (0 to 255) enum {DIO 0, DIO 1, DIO 2, DIO 3, DIO 4, DIO 5, DIO 6, DIO 7, DIO 8, DIO 9, DIO MXP 0, DIO MXP 1, DIO MXP 2, DIO MX
+P 3, DIO MXP 4, DIO MXP 5, DIO MXP 6, DIO MXP 7, DIO MXP 8, DIO MXP 9, DIO MXP 10, DIO MXP 11, DIO MXP 12, DIO MXP 13, DIO MXP 14, DIO MXP 15, SPI Port CS1, SPI Port CS2, SPI Port CS3, SPI Port MISO, SPI Port MOSI, Invalid}
+        @0x003E: 'PWM Rate': double [64-bit real (~15 digit precision)]
+
+ddoList (0x1A7D6B78): n=6: 1A541504,1AF183E8,1A541D24,1A541D8C,
+    1A7FE1F0,1A541BEC,
+pane = 0x1A7FEA90
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a541d24:
+flags=0x600004
+owner=0x1A7FEA90
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(-18, 211, 367, 340) (in panel coords: tlbr(272, 210, 657, 339))
+partsList (0x1A7D8908): n=4: 11B45548,1A7D67B8,1A7D6778,11B454E8,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=43
+@0x0000: 'PWM': cluster of 2 elements
+    @0x0000: 'PWM Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PWM MX
+P 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+    @0x0001: 'DeadBand': typedef 'WPI_PWMDeadband.ctl'{0xC5224BA1, "Oct 20, 2008 10:52:17 AM"} cluster of 7 elements
+        @0x0001: 'Name': string
+        @0x0005: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0009: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x000D: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0011: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0015: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0019: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+
+ddoList (0x1A7D87F0): n=2: 11B45368,11B45068,
+pane = 0x11B45488
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a541d8c:
+flags=0x2600004
+owner=0x1A7FEA90
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(165, 17, 496, 169) (in panel coords: tlbr(455, 16, 786, 168))
+partsList (0x1A7D9158): n=4: 1A7FE010,1A7D6B38,1A7D6AF8,1A7FDFB0,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=36
+@0x0000: 'CAN': cluster of 6 elements
+    @0x0000: 'Device Number': unsigned byte [8-bit integer (0 to 255)
+    @0x0001: 'SetOutput VI Ref': Variant
+    @0x0005: 'GetOutput VI Ref': Variant
+    @0x0009: 'Enable VI Ref': Variant
+    @0x000D: 'Disable VI Ref': Variant
+    @0x0011: 'Data': Variant
+
+ddoList (0x1A7D68F8): n=6: 1A7FDE30,11B45BA8,11B45A28,11B458A8,
+    11B45728,11B45D28,
+pane = 0x1A7FDF50
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a541ec4:
+flags=0x2600004
+owner=0x11B45068
+partID[8010]= Type Def's Control
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+bounds= tlbr(93, 3, 399, 121) (in panel coords: tlbr(347, 217, 653, 335))
+partsList (0x1A7D8668): n=4: 11B44FA8,1A7D65B8,11B4B2C0,11B44F48,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=47
+@0x0000: 'PWMDeadband Coefficient': cluster of 7 elements
+    @0x0000: 'Name': string
+    @0x0004: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0008: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x000C: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0010: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0014: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+    @0x0018: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+
+ddoList (0x1AF184A8): n=7: 1B9E4A20,1B9E5560,1B9E5320,1B9E50E0,
+    1B9E4EA0,1B9E4C60,1B9E4780,
+pane = 0x1B9E5680
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7813fc:
+flags=0x40004
+owner=0x11B45368
+partID[8010]= Type Def's Control
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+bounds= tlbr(56, 0, 84, 98) (in panel coords: tlbr(310, 214, 338, 312))
+partsList (0x11B452A8): n=7: 11B45248,11B451E8,11B45188,1B91CECC,
+    1B91CE4C,1A7D65F8,11B45128,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=45
+@0x0000: '': unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PWM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = 0, max = 20, inc = 0
+
+
+Std Ring
+cols=0
+
+StdRing Private data
+number of items=21
+  itemArr numItems=21
+  itemArr handle sized for 21 items
+   0: 0x0000
+   1: 0x0000
+   2: 0x0000
+   3: 0x0000
+   4: 0x0000
+   5: 0x0000
+   6: 0x0000
+   7: 0x0000
+   8: 0x0000
+   9: 0x0000
+  10: 0x0000
+  11: 0x0000
+  12: 0x0000
+  13: 0x0000
+  14: 0x0000
+  15: 0x0000
+  16: 0x0000
+  17: 0x0000
+  18: 0x0000
+  19: 0x0000
+  20: 0x0000
+number of data values=0
+  dataValues = NULL
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a781474:
+flags=0x40004
+owner=0x1AF17F08
+partID[8010]= Type Def's Control
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+bounds= tlbr(19, 4, 47, 102) (in panel coords: tlbr(693, 195, 721, 293))
+partsList (0x1AF17E48): n=7: 1AF17DE8,1AF17D88,1AF17D28,1B91B7CC,
+    1B91B74C,11B4AD00,1AF17CC8,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=59
+@0x0000: '': unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PWM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = 0, max = 20, inc = 0
+
+
+Std Ring
+cols=0
+
+StdRing Private data
+number of items=21
+  itemArr numItems=21
+  itemArr handle sized for 21 items
+   0: 0x0000
+   1: 0x0000
+   2: 0x0000
+   3: 0x0000
+   4: 0x0000
+   5: 0x0000
+   6: 0x0000
+   7: 0x0000
+   8: 0x0000
+   9: 0x0000
+  10: 0x0000
+  11: 0x0000
+  12: 0x0000
+  13: 0x0000
+  14: 0x0000
+  15: 0x0000
+  16: 0x0000
+  17: 0x0000
+  18: 0x0000
+  19: 0x0000
+  20: 0x0000
+number of data values=0
+  dataValues = NULL
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a781564:
+flags=0x40004
+owner=0x1AF17C08
+partID[8010]= Type Def's Control
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+bounds= tlbr(62, 4, 88, 100) (in panel coords: tlbr(736, 195, 762, 291))
+partsList (0x1AF17AE8): n=7: 1AF17A88,1AF17A28,1AF179C8,1B91C6CC,
+    1B91C64C,11B4ACC0,1AF17968,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=61
+@0x0000: '': unsigned byte [8-bit integer (0 to 255) enum {DIO 0, DIO 1, DIO 2, DIO 3, DIO 4, DIO 5, DIO 6, DIO 7, DIO 8, DIO 9, DIO MXP 0, DIO MXP 1, DIO MXP 2, DIO MXP 3, DIO MXP 4, DIO MXP 5, DIO MXP 6, DIO MXP 7, DIO MXP 8, DIO MXP 9, DIO MXP 10, DIO 
+MXP 11, DIO MXP 12, DIO MXP 13, DIO MXP 14, DIO MXP 15, SPI Port CS1, SPI Port CS2, SPI Port CS3, SPI Port MISO, SPI Port MOSI, Invalid}
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = 0, max = 31, inc = 0
+
+
+Std Ring
+cols=0
+
+StdRing Private data
+number of items=32
+  itemArr numItems=32
+  itemArr handle sized for 32 items
+   0: 0x0000
+   1: 0x0000
+   2: 0x0000
+   3: 0x0000
+   4: 0x0000
+   5: 0x0000
+   6: 0x0000
+   7: 0x0000
+   8: 0x0000
+   9: 0x0000
+  10: 0x0000
+  11: 0x0000
+  12: 0x0000
+  13: 0x0000
+  14: 0x0000
+  15: 0x0000
+  16: 0x0000
+  17: 0x0000
+  18: 0x0000
+  19: 0x0000
+  20: 0x0000
+  21: 0x0000
+  22: 0x0000
+  23: 0x0000
+  24: 0x0000
+  25: 0x0000
+  26: 0x0000
+  27: 0x0000
+  28: 0x0000
+  29: 0x0000
+  30: 0x0000
+  31: 0x0000
+number of data values=0
+  dataValues = NULL
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7817bc:
+flags=0x40004
+owner=0x1AF183E8
+partID[8010]= Type Def's Control
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+bounds= tlbr(136, 7, 164, 126) (in panel coords: tlbr(426, 6, 454, 125))
+partsList (0x1AF18328): n=7: 1AF182C8,1AF18268,1AF18208,1B91B8CC,
+    1B91B84C,11B4AF00,1AF181A8,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=56
+@0x0000: '': unsigned word [16-bit integer (0 to 65535)] enum {PWM, CAN, DIO PWM}
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = 0, max = 2, inc = 0
+
+
+Std Ring
+cols=0
+
+StdRing Private data
+number of items=3
+  itemArr numItems=3
+  itemArr handle sized for 3 items
+   0: 0x0000
+   1: 0x0000
+   2: 0x0000
+number of data values=0
+  dataValues = NULL
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d65b8:
+flags=0x937
+owner=0x1A541EC4
+partID[28]= Content Area
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(97, 7, 395, 117) (in panel coords tlbr(351, 221, 649, 331))
+fgColor=0xA6A6A6
+bgColor=0xA6A6A6
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d65f8:
+flags=0x1917
+owner=0x1A7813FC
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(57, 11, 84, 98) (in panel coords tlbr(311, 225, 338, 312))
+fgColor=0xD2D2D2
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6638:
+flags=0x1073
+owner=0x11B45488
+partID[28]= Pane Content Area
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x78
+image [IMAGE] 0xFA80066F (kPiccImage)
+bounds= tlbr(5, 215, 363, 336) (in panel coords tlbr(295, 214, 653, 335))
+fgColor=0x969696
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6678:
+flags=0x1D7F
+owner=0x11B45488
+partID[44]= Extra Frame Part
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xA
+image [IMAGE] 0xFD26051C (kPiccImage)
+bounds= tlbr(363, 336, 380, 353) (in panel coords tlbr(653, 335, 670, 352))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d66b8:
+flags=0x1D7E
+owner=0x11B45488
+partID[38]= X Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x38
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(363, 215, 380, 336) (in panel coords tlbr(653, 214, 670, 335))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d66f8:
+flags=0x1D7E
+owner=0x11B45488
+partID[39]= Y Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xC2
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(5, 336, 363, 353) (in panel coords tlbr(295, 335, 653, 352))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6738:
+List (0x1A7D6738): n=6: 11B45428,1A7D66F8,1A7D66B8,1A7D6678,1A7D6638,
+    11B453C8,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6778:
+flags=0x1917
+owner=0x1A541D24
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(1, 211, 367, 340) (in panel coords tlbr(291, 210, 657, 339))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d67b8:
+flags=0x937
+owner=0x1A541D24
+partID[28]= Content Area
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(5, 215, 363, 336) (in panel coords tlbr(295, 214, 653, 335))
+fgColor=0xA6A6A6
+bgColor=0xA6A6A6
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d67f8:
+flags=0x1917
+owner=0x11B45728
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(182, 1, 203, 61) (in panel coords tlbr(655, 20, 676, 80))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6838:
+flags=0x1917
+owner=0x11B458A8
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(143, 1, 164, 61) (in panel coords tlbr(616, 20, 637, 80))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6878:
+flags=0x1917
+owner=0x11B45A28
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(104, 1, 125, 61) (in panel coords tlbr(577, 20, 598, 80))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d68b8:
+flags=0x1917
+owner=0x11B45BA8
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(65, 1, 86, 61) (in panel coords tlbr(538, 20, 559, 80))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d68f8:
+List (0x1A7D68F8): n=6: 1A7FDE30,11B45BA8,11B45A28,11B458A8,11B45728,
+    11B45D28,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6938:
+flags=0x1917
+owner=0x11B45D28
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(222, 1, 309, 145) (in panel coords tlbr(695, 20, 782, 164))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6978:
+flags=0x1917
+owner=0x1A7FDE30
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(22, 12, 47, 66) (in panel coords tlbr(495, 31, 520, 85))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d69b8:
+flags=0x1073
+owner=0x1A7FDF50
+partID[28]= Pane Content Area
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x78
+image [IMAGE] 0xFA80066F (kPiccImage)
+bounds= tlbr(188, 21, 492, 165) (in panel coords tlbr(478, 20, 782, 164))
+fgColor=0x969696
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d69f8:
+flags=0x1D7F
+owner=0x1A7FDF50
+partID[44]= Extra Frame Part
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xA
+image [IMAGE] 0xFD26051C (kPiccImage)
+bounds= tlbr(492, 165, 509, 182) (in panel coords tlbr(782, 164, 799, 181))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6a38:
+flags=0x1D7E
+owner=0x1A7FDF50
+partID[38]= X Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x38
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(492, 21, 509, 165) (in panel coords tlbr(782, 20, 799, 164))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6a78:
+flags=0x1D7E
+owner=0x1A7FDF50
+partID[39]= Y Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xC2
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(188, 165, 492, 182) (in panel coords tlbr(478, 164, 782, 181))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6ab8:
+List (0x1A7D6AB8): n=6: 1A7FDEF0,1A7D6A78,1A7D6A38,1A7D69F8,1A7D69B8,
+    1A7FDE90,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6af8:
+flags=0x1917
+owner=0x1A541D8C
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(184, 17, 496, 169) (in panel coords tlbr(474, 16, 786, 168))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6b38:
+flags=0x937
+owner=0x1A541D8C
+partID[28]= Content Area
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(188, 21, 492, 165) (in panel coords tlbr(478, 20, 782, 164))
+fgColor=0xA6A6A6
+bgColor=0xA6A6A6
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6b78:
+List (0x1A7D6B78): n=6: 1A541504,1AF183E8,1A541D24,1A541D8C,1A7FE1F0,
+    1A541BEC,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6bb8:
+flags=0x1917
+owner=0x1A7FE3D0
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(186, 88, 236, 234) (in panel coords tlbr(357, 14, 407, 160))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6bf8:
+List (0x1A7D6BF8): n=5: 1A7FE370,1A7FE310,1A7FE2B0,1A7D6BB8,1A7FE250,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6c38:
+List (0x1A7D6C38): n=3: 1A7FE3D0,1A7FE610,1A7FE790,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6c78:
+flags=0x1917
+owner=0x1A7FE610
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(141, 134, 166, 234) (in panel coords tlbr(312, 60, 337, 160))
+fgColor=0x888888
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6cb8:
+flags=0x1073
+owner=0x1A7FE8B0
+partID[28]= Pane Content Area
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x78
+image [IMAGE] 0xFA80066F (kPiccImage)
+bounds= tlbr(4, 14, 117, 161) (in panel coords tlbr(294, 13, 407, 160))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6cf8:
+flags=0x1D7F
+owner=0x1A7FE8B0
+partID[44]= Extra Frame Part
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFD26051C (kPiccImage)
+bounds= tlbr(118, 162, 135, 179) (in panel coords tlbr(408, 161, 425, 178))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6d38:
+flags=0x1D7E
+owner=0x1A7FE8B0
+partID[38]= X Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x38
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(118, 14, 135, 162) (in panel coords tlbr(408, 13, 425, 161))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6d78:
+flags=0x1D7E
+owner=0x1A7FE8B0
+partID[39]= Y Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xC2
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(4, 162, 118, 179) (in panel coords tlbr(294, 161, 408, 178))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6db8:
+List (0x1A7D6DB8): n=6: 1A7FE850,1A7D6D78,1A7D6D38,1A7D6CF8,1A7D6CB8,
+    1A7FE7F0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6df8:
+flags=0x1917
+owner=0x1A541504
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(0, 10, 121, 165) (in panel coords tlbr(290, 9, 411, 164))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6e38:
+flags=0x937
+owner=0x1A541504
+partID[28]= Content Area
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(4, 14, 117, 161) (in panel coords tlbr(294, 13, 407, 160))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6e78:
+flags=0x1073
+owner=0x1A7FEA90
+partID[28]= Pane Content Area
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x78
+image [IMAGE] 0xFA80066F (kPiccImage)
+bounds= tlbr(226, 6, 762, 339) (in panel coords tlbr(272, 6, 808, 339))
+fgColor=0x969696
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6eb8:
+flags=0x1D7F
+owner=0x1A7FEA90
+partID[44]= Extra Frame Part
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xA
+image [IMAGE] 0xFD26051C (kPiccImage)
+bounds= tlbr(762, 339, 779, 356) (in panel coords tlbr(808, 339, 825, 356))
+fgColor=0xB3B3B3
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6ef8:
+flags=0x1D7E
+owner=0x1A7FEA90
+partID[38]= X Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x38
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(762, 6, 779, 339) (in panel coords tlbr(808, 6, 825, 339))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6f38:
+flags=0x1D7E
+owner=0x1A7FEA90
+partID[39]= Y Scrollbar
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0xC2
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(226, 339, 762, 356) (in panel coords tlbr(272, 339, 808, 356))
+fgColor=0x0
+bgColor=0xB3B3B3
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d6ff8:
+flags=0x917
+owner=0x1A541C54
+partID[9]= Frame
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFCC8054B (kPiccImage)
+bounds= tlbr(222, 2, 766, 343) (in panel coords tlbr(268, 2, 812, 343))
+fgColor=0xB3B3B3
+bgColor=0x1000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d7038:
+flags=0x937
+owner=0x1A541C54
+partID[28]= Content Area
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(226, 6, 762, 339) (in panel coords tlbr(272, 6, 808, 339))
+fgColor=0xA6A6A6
+bgColor=0xA6A6A6
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d7078:
+List (0x1A7D7078): n=6: 1A7FEA30,1A7D6F38,1A7D6EF8,1A7D6EB8,1A7D6E78,
+    1A7FE9D0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d75c0:
+flags=0x24
+owner=0x1AF17600
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(203, 2, 766, 343) (in panel coords: tlbr(249, 2, 812, 343))
+partsList (0x1A7D9270): n=3: 1A7D7620,1A541C54,1AF17660,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=29
+@0x0000: 'PhoenixMotorControlDevRef': typedef 'WPI_MotorControlDeviceRef.ctl'{0xD6140642, "Oct 23, 2017 4:49:06 PM"} cluster of 6 elements
+    @0x0000: 'DeviceStatus': cluster of 3 elements
+        @0x0000: 'status': boolean (TRUE or FALSE)
+        @0x0001: 'code': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0005: 'source': string
+    @0x0009: 'Type': typedef 'WPI_MotorControlType.ctl'{0x0, "non-strict"} unsigned word [16-bit integer (0 to 65535)] enum {PWM, CAN, DIO PWM}
+    @0x000B: 'PWM': cluster of 2 elements
+        @0x000B: 'PWM Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PW
+M MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+        @0x000C: 'DeadBand': typedef 'WPI_PWMDeadband.ctl'{0xC5224BA1, "Oct 20, 2008 10:52:17 AM"} cluster of 7 elements
+            @0x000C: 'Name': string
+            @0x0010: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0014: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0018: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x001C: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0020: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0024: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+    @0x0026: 'CAN': cluster of 6 elements
+        @0x0026: 'Device Number': unsigned byte [8-bit integer (0 to 255)
+        @0x0027: 'SetOutput VI Ref': Variant
+        @0x002B: 'GetOutput VI Ref': Variant
+        @0x002F: 'Enable VI Ref': Variant
+        @0x0033: 'Disable VI Ref': Variant
+        @0x0037: 'Data': Variant
+    @0x003B: 'Invert': boolean (TRUE or FALSE)
+    @0x003C: 'DIO PWM': cluster of 3 elements
+        @0x003C: 'PWM "Enable" Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM 
+MXP 2, PWM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+        @0x003D: 'DIOChannel': typedef 'FPGA_DIOChannel.ctl'{0xD40F3554, "Sep 26, 2016 4:28:04 PM"} unsigned byte [8-bit integer (0 to 255) enum {DIO 0, DIO 1, DIO 2, DIO 3, DIO 4, DIO 5, DIO 6, DIO 7, DIO 8, DIO 9, DIO MXP 0, DIO MXP 1, DIO MXP 2, DIO MX
+P 3, DIO MXP 4, DIO MXP 5, DIO MXP 6, DIO MXP 7, DIO MXP 8, DIO MXP 9, DIO MXP 10, DIO MXP 11, DIO MXP 12, DIO MXP 13, DIO MXP 14, DIO MXP 15, SPI Port CS1, SPI Port CS2, SPI Port CS3, SPI Port MISO, SPI Port MOSI, Invalid}
+        @0x003E: 'PWM Rate': double [64-bit real (~15 digit precision)]
+
+stamp=0xD6140642 (Oct 23, 2017 4:49:06 PM)
+vi=0x07CE5B40
+def val matches ctl VI, calculated = true, result = false
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d7620:
+flags=0x170146
+owner=0x1A7D75C0
+partID[16]= Name Label
+masterPart[8010]= Type Def's Control
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(203, 2, 220, 157) (in panel coords tlbr(249, 2, 266, 157))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBF48
+ flags = 0x400
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBFF0
+ viewrect= tlbr(204, 3, 219, 156)
+ docrect= (204,4,219,156)
+textLen= 25
+text= "PhoenixMotorControlDevRef"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8520:
+Pane
+flags=0x260830
+owner=0x1B91C9CC
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(46, 0, 460, 765) (in panel coords: tlbr(46, 0, 460, 765))
+partsList (0x1A7D8400): n=6: 1A7D84C0,1A7D7538,1A7D74F8,1A7D74B8,
+    1A7D7478,1A7D8460,
+zPlaneList (0x11B4ABC0): n=2: 1AF17600,1A7D8100,
+paneFlags=0x50D51
+origin=hv(0,0)
+docBounds=tlbr(-99, -187, 397, 748)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x1A7927D0
+toptr->heap=0x1A4F51D0
+toptr->pane=0x1A7D8520
+toptr->wind=0x1B8EBA1C
+
+
+
+
+Object 0x1af175a0:
+Pane
+flags=0x260830
+owner=0x1B91C9CC
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(46, 0, 460, 765) (in panel coords: tlbr(46, 0, 460, 765))
+partsList (0x1A7D8400): n=6: 1A7D84C0,1A7D7538,1A7D74F8,1A7D74B8,
+    1A7D7478,1A7D8460,
+zPlaneList (0x1A7D6FB8): n=1: 1A7D8100,
+paneFlags=0x50C50
+origin=hv(0,0)
+docBounds=tlbr(-99, -187, 397, 748)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x1a7d8588:
+List (0x1A7D8588): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d85c0:
+List (0x1A7D85C0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d85f8:
+List (0x1A7D85F8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8630:
+List (0x1A7D8630): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8668:
+List (0x1A7D8668): n=4: 11B44FA8,1A7D65B8,11B4B2C0,11B44F48,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d86a0:
+List (0x1A7D86A0): n=3: 11B45008,1A541EC4,1AF18448,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d86d8:
+List (0x1A7D86D8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8710:
+List (0x1A7D8710): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8748:
+List (0x1A7D8748): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8780:
+List (0x1A7D8780): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d87b8:
+List (0x1A7D87B8): n=3: 11B45308,1A7813FC,11B450C8,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d87f0:
+List (0x1A7D87F0): n=2: 11B45368,11B45068,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8828:
+List (0x1A7D8828): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8860:
+List (0x1A7D8860): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8898:
+List (0x1A7D8898): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d88d0:
+List (0x1A7D88D0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8908:
+List (0x1A7D8908): n=4: 11B45548,1A7D67B8,1A7D6778,11B454E8,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8940:
+List (0x1A7D8940): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8978:
+List (0x1A7D8978): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d89b0:
+List (0x1A7D89B0): n=4: 11B456C8,11B45668,1A7D67F8,11B45608,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d89e8:
+List (0x1A7D89E8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8a20:
+List (0x1A7D8A20): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8a58:
+List (0x1A7D8A58): n=4: 11B45848,11B457E8,1A7D6838,11B45788,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8a90:
+List (0x1A7D8A90): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8ac8:
+List (0x1A7D8AC8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8b00:
+List (0x1A7D8B00): n=4: 11B459C8,11B45968,1A7D6878,11B45908,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8b38:
+List (0x1A7D8B38): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8b70:
+List (0x1A7D8B70): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8ba8:
+List (0x1A7D8BA8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8be0:
+List (0x1A7D8BE0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8c18:
+List (0x1A7D8C18): n=4: 11B45CC8,11B45C68,1A7D6938,11B45C08,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8c50:
+List (0x1A7D8C50): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8c88:
+List (0x1A7D8C88): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8cc0:
+List (0x1A7D8CC0): n=4: 11B45B48,11B45AE8,1A7D68B8,11B45A88,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8cf8:
+List (0x1A7D8CF8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8d30:
+List (0x1A7D8D30): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8d68:
+List (0x1A7D8D68): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8da0:
+List (0x1A7D8DA0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8dd8:
+List (0x1A7D8DD8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8e10:
+List (0x1A7D8E10): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8e48:
+List (0x1A7D8E48): n=4: 1A7FE190,1A7FE130,1A7FE0D0,1A7FE070,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8e80:
+List (0x1A7D8E80): n=3: 1A7FE790,1A7FE610,1A7FE3D0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8eb8:
+List (0x1A7D8EB8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8ef0:
+List (0x1A7D8EF0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8f28:
+List (0x1A7D8F28): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8f60:
+List (0x1A7D8F60): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8f98:
+List (0x1A7D8F98): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d8fd0:
+List (0x1A7D8FD0): n=4: 1A7FE730,1A7FE6D0,1A25F904,1A7FE670,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9008:
+List (0x1A7D9008): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9040:
+List (0x1A7D9040): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9078:
+List (0x1A7D9078): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d90b0:
+List (0x1A7D90B0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d90e8:
+List (0x1A7D90E8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9120:
+List (0x1A7D9120): n=4: 1A7FE970,1A7D6E38,1A7D6DF8,1A7FE910,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9158:
+List (0x1A7D9158): n=4: 1A7FE010,1A7D6B38,1A7D6AF8,1A7FDFB0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9190:
+List (0x1A7D9190): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d91c8:
+List (0x1A7D91C8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9200:
+List (0x1A7D9200): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9238:
+List (0x1A7D9238): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9270:
+List (0x1A7D9270): n=3: 1A7D7620,1A541C54,1AF17660,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fddd0:
+List (0x1A7FDDD0): n=7: 11B45EA8,11B45E48,1B91CFCC,1B91CF4C,11B45DE8,
+    1A7D6978,11B45D88,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fde30:
+flags=0x60042
+owner=0x1A7FDF50
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(5, 1, 47, 97) (in panel coords: tlbr(478, 20, 520, 116))
+partsList (0x1A7FDDD0): n=7: 11B45EA8,11B45E48,1B91CFCC,1B91CF4C,
+    11B45DE8,1A7D6978,11B45D88,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=37
+@0x0000: 'Device Number': unsigned byte [8-bit integer (0 to 255)
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = 0, max = 255, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fde90:
+flags=0x0
+owner=0x1A7FDF50
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8D30): n=0: 
+refList (0x1A7D8CF8): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fdef0:
+flags=0x17114A
+owner=0x1A7FDF50
+partID[16]= Name Label
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x5
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(188, 21, 205, 50) (in panel coords tlbr(478, 20, 495, 49))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBDF4
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBFE4
+ viewrect= tlbr(189, 22, 204, 49)
+ docrect= (189,23,204,49)
+textLen= 4
+text= "Pane"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fdf50:
+Pane
+flags=0x261110
+owner=0x1A541D8C
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(188, 21, 492, 165) (in panel coords: tlbr(478, 20, 782, 164))
+partsList (0x1A7D6AB8): n=6: 1A7FDEF0,1A7D6A78,1A7D6A38,1A7D69F8,
+    1A7D69B8,1A7FDE90,
+zPlaneList (0x11B455A8): n=6: 11B45728,11B458A8,11B45A28,11B45BA8,
+    11B45D28,1A7FDE30,
+paneFlags=0x40101
+origin=hv(-1,-5)
+docBounds=tlbr(-71, -35, 385, 181)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fdfb0:
+flags=0x0
+owner=0x1A541D8C
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8DA0): n=0: 
+refList (0x1A7D8D68): n=0: 
+rsrcID=21607
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe010:
+flags=0x171146
+owner=0x1A541D8C
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(165, 17, 182, 45) (in panel coords tlbr(455, 16, 472, 44))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC0C0
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC040
+ viewrect= tlbr(166, 18, 181, 44)
+ docrect= (166,19,181,44)
+textLen= 3
+text= "CAN"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe070:
+flags=0x0
+owner=0x1A7FE1F0
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8E10): n=0: 
+refList (0x1A7D8DD8): n=0: 
+rsrcID=3132
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe0d0:
+flags=0x934
+owner=0x1A7FE1F0
+partID[21]= Boolean Button
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+image [IMAGE] 0xFDB004D7 (kPiccImage)
+bounds= tlbr(148, 134, 161, 147) (in panel coords tlbr(438, 133, 451, 146))
+fgColor=0x0
+bgColor=0xFFFFFF
+nCosms=0x6
+    table[0]=0xFDB004D7 (kPiccImage)
+    table[1]=0xFDAE04D8 (kPiccImage)
+    table[2]=0xFDAC04D9 (kPiccImage)
+    table[3]=0xFDAA04DA (kPiccImage)
+    table[4]=0xFAA6065C (kPiccImage)
+    table[5]=0xFAA4065D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe130:
+flags=0x60966
+owner=0x1A7FE1F0
+partID[22]= Boolean Text
+masterPart[21]= Boolean Button
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(147, 149, 164, 196) (in panel coords tlbr(437, 148, 454, 195))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBF44
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x100003D, bgColor= 0x1000000
+ text handle = 0x1B0063FC
+ viewrect= tlbr(148, 150, 163, 195)
+ docrect= (148,151,163,195)
+textLen= 6
+text= "OFF/ON"
+index=0
+CPStrHandle buf=0x1B8EBFF4
+  0: OFF/ON
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe190:
+flags=0x170147
+owner=0x1A7FE1F0
+partID[16]= Name Label
+masterPart[21]= Boolean Button
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFE803BB (kPiccImage)
+bounds= tlbr(128, 134, 145, 167) (in panel coords tlbr(418, 133, 435, 166))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBF38
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC044
+ viewrect= tlbr(129, 135, 144, 166)
+ docrect= (129,136,144,166)
+textLen= 6
+text= "Invert"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe1f0:
+flags=0x20
+owner=0x1A7FEA90
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(128, 134, 164, 196) (in panel coords: tlbr(418, 133, 454, 195))
+partsList (0x1A7D8E48): n=4: 1A7FE190,1A7FE130,1A7FE0D0,1A7FE070,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=35
+@0x0000: 'Invert': boolean (TRUE or FALSE)
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe250:
+flags=0x0
+owner=0x1A7FE3D0
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D9008): n=0: 
+refList (0x1A7D8EB8): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe2b0:
+flags=0x932
+owner=0x1A7FE3D0
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(190, 92, 232, 230) (in panel coords tlbr(361, 18, 403, 156))
+fgColor=0xFFFFFF
+bgColor=0xFFFFFF
+textRec=0x1B8EBF54
+ flags = 0x600
+ mode = 0x1404 (tVScroll | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xFFFFFF
+ text handle = 0x1B8EBEBC
+ viewrect= tlbr(191, 93, 231, 229)
+ docrect= (191,94,206,212)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe310:
+flags=0x193A
+owner=0x1A7FE3D0
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1008
+image [IMAGE] 0xEF9003B3 (kSubImage)
+bounds= tlbr(202, 92, 214, 98) (in panel coords tlbr(373, 18, 385, 24))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x4
+    table[0]=0xEF9003B3 (kSubImage)
+    table[1]=0xEF8E03B4 (kSubImage)
+    table[2]=0xEF8C03B5 (kSubImage)
+    table[3]=0xEF8A03B6 (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe370:
+flags=0x171146
+owner=0x1A7FE3D0
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(168, 88, 185, 126) (in panel coords tlbr(339, 14, 356, 52))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC00C
+ flags = 0x400
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBE84
+ viewrect= tlbr(169, 89, 184, 125)
+ docrect= (169,90,184,125)
+textLen= 6
+text= "source"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe3d0:
+flags=0x0
+owner=0x1A7FE8B0
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(168, 88, 236, 234) (in panel coords: tlbr(339, 14, 407, 160))
+partsList (0x1A7D6BF8): n=5: 1A7FE370,1A7FE310,1A7FE2B0,1A7D6BB8,
+    1A7FE250,
+description=0x1B30256C
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=34
+@0x0000: 'source': string
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe430:
+flags=0x0
+owner=0x1A7FE610
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8F28): n=0: 
+refList (0x1A7D8EF0): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe490:
+flags=0x1932
+owner=0x1A7FE610
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(145, 138, 162, 144) (in panel coords tlbr(316, 64, 333, 70))
+fgColor=0xD9DADC
+bgColor=0x888888
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe4f0:
+flags=0x40932
+owner=0x1A7FE610
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(145, 144, 162, 230) (in panel coords tlbr(316, 70, 333, 156))
+fgColor=0xFFFFFF
+bgColor=0xFFFFFF
+textRec=0x1B8EBE40
+ flags = 0x200
+ mode = 0x400 ( | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFFFFFF
+ text handle = 0x1B006450
+ viewrect= tlbr(146, 145, 161, 229)
+ docrect= (146,146,161,229)
+textLen= 1
+text= "0"
+Numeric format= "%d"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe550:
+flags=0x171146
+owner=0x1A7FE610
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(123, 134, 140, 163) (in panel coords tlbr(294, 60, 311, 89))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBDD8
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBE5C
+ viewrect= tlbr(124, 135, 139, 162)
+ docrect= (124,136,139,162)
+textLen= 4
+text= "code"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe5b0:
+List (0x1A7FE5B0): n=7: 1A7FE550,1A7FE4F0,1B91D0CC,1B91D04C,1A7FE490,
+    1A7D6C78,1A7FE430,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe610:
+flags=0x60002
+owner=0x1A7FE8B0
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(123, 123, 166, 234) (in panel coords: tlbr(294, 49, 337, 160))
+partsList (0x1A7FE5B0): n=7: 1A7FE550,1A7FE4F0,1B91D0CC,1B91D04C,
+    1A7FE490,1A7D6C78,1A7FE430,
+description=0x1B4452CC
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=33
+@0x0000: 'code': long [32-bit integer (-2147483648 to 2147483647)]
+
+format= "%d"
+snFiller=0x0
+
+StdNum Private data
+min = -2147483648, max = 2147483647, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe670:
+flags=0x0
+owner=0x1A7FE790
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D8F98): n=0: 
+refList (0x1A7D8F60): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe6d0:
+flags=0x6196E
+owner=0x1A7FE790
+partID[22]= Boolean Text
+masterPart[21]= Boolean Button
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0x0 (no image)
+bounds= tlbr(140, 95, 157, 104) (in panel coords tlbr(311, 21, 328, 30))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC03C
+ flags = 0x600
+ mode = 0x424 ( | tRW | tTop | kCenterJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBF68
+ viewrect= tlbr(141, 96, 156, 103)
+ docrect= (141,97,156,103)
+textLen= 0
+text= ""
+index=0
+CPStrHandle buf=0x1B0063EC
+  0: 
+  1: 
+  2: 
+  3: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe730:
+flags=0x170147
+owner=0x1A7FE790
+partID[16]= Name Label
+masterPart[21]= Boolean Button
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(124, 87, 141, 121) (in panel coords tlbr(295, 13, 312, 47))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBF4C
+ flags = 0x200
+ mode = 0x4424 (tOverlapped | tRW | tTop | kCenterJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBC38
+ viewrect= tlbr(125, 88, 140, 120)
+ docrect= (125,89,140,120)
+textLen= 6
+text= "status"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe790:
+flags=0x0
+owner=0x1A7FE8B0
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(124, 87, 162, 121) (in panel coords: tlbr(295, 13, 333, 47))
+partsList (0x1A7D8FD0): n=4: 1A7FE730,1A7FE6D0,1A25F904,1A7FE670,
+description=0x196AD344
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=32
+@0x0000: 'status': boolean (TRUE or FALSE)
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe7f0:
+flags=0x0
+owner=0x1A7FE8B0
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D9078): n=0: 
+refList (0x1A7D9040): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe850:
+flags=0x17114A
+owner=0x1A7FE8B0
+partID[16]= Name Label
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(4, 14, 21, 43) (in panel coords tlbr(294, 13, 311, 42))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBA14
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBC6C
+ viewrect= tlbr(5, 15, 20, 42)
+ docrect= (5,16,20,42)
+textLen= 4
+text= "Pane"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe8b0:
+Pane
+flags=0x261110
+owner=0x1A541504
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(4, 14, 117, 161) (in panel coords: tlbr(294, 13, 407, 160))
+partsList (0x1A7D6DB8): n=6: 1A7FE850,1A7D6D78,1A7D6D38,1A7D6CF8,
+    1A7D6CB8,1A7FE7F0,
+zPlaneList (0x1A7D6C38): n=3: 1A7FE3D0,1A7FE610,1A7FE790,
+paneFlags=0x40101
+origin=hv(-87,-123)
+docBounds=tlbr(95, 51, 264, 270)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe910:
+flags=0x0
+owner=0x1A541504
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D90E8): n=0: 
+refList (0x1A7D90B0): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe970:
+flags=0x171146
+owner=0x1A541504
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(-17, 10, 0, 80) (in panel coords tlbr(273, 9, 290, 79))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBF28
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBC98
+ viewrect= tlbr(-16, 11, -1, 79)
+ docrect= (-16,12,-1,79)
+textLen= 12
+text= "DeviceStatus"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fe9d0:
+flags=0x0
+owner=0x1A7FEA90
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D91C8): n=0: 
+refList (0x1A7D9190): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fea30:
+flags=0x17114A
+owner=0x1A7FEA90
+partID[16]= Name Label
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x5
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(226, 6, 243, 35) (in panel coords tlbr(272, 6, 289, 35))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBFA4
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBC5C
+ viewrect= tlbr(227, 7, 242, 34)
+ docrect= (227,8,242,34)
+textLen= 4
+text= "Pane"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fea90:
+Pane
+flags=0x261110
+owner=0x1A541C54
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(226, 6, 762, 339) (in panel coords: tlbr(272, 6, 808, 339))
+partsList (0x1A7D7078): n=6: 1A7FEA30,1A7D6F38,1A7D6EF8,1A7D6EB8,
+    1A7D6E78,1A7FE9D0,
+zPlaneList (0x1AF176C8): n=6: 1A541BEC,1AF183E8,1A541D24,1A541D8C,
+    1A7FE1F0,1A541504,
+paneFlags=0x40101
+origin=hv(-7,18)
+docBounds=tlbr(-152, -76, 652, 423)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7feaf0:
+flags=0x0
+owner=0x1A541C54
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D9238): n=0: 
+refList (0x1A7D9200): n=0: 
+rsrcID=21607
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7feb50:
+flags=0x17114E
+owner=0x1A541C54
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(203, 2, 220, 11) (in panel coords tlbr(249, 2, 266, 11))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBE64
+ flags = 0x400
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBBFC
+ viewrect= tlbr(204, 3, 219, 10)
+ docrect= (204,4,219,10)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7febb0:
+flags=0x16911F
+owner=0x1A541C54
+partID[25]= Decoration
+masterPart[0]= No PartID
+partOrder=2
+howGrow=0x0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(487, 551, 504, 560) (in panel coords tlbr(533, 551, 550, 560))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBD68
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC054
+ viewrect= tlbr(488, 552, 503, 559)
+ docrect= (488,553,503,559)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fec10:
+List (0x1A7FEC10): n=7: 1A7FEBB0,1A7FECD0,1A7FEC70,1A7FEB50,1A7D7038,
+    1A7D6FF8,1A7FEAF0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fec70:
+flags=0x16911F
+owner=0x1A541C54
+partID[25]= Decoration
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(550, 538, 567, 547) (in panel coords tlbr(596, 538, 613, 547))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBD98
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBE6C
+ viewrect= tlbr(551, 539, 566, 546)
+ docrect= (551,540,566,546)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fecd0:
+flags=0x16911F
+owner=0x1A541C54
+partID[25]= Decoration
+masterPart[0]= No PartID
+partOrder=1
+howGrow=0x0
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(522, 532, 539, 541) (in panel coords tlbr(568, 532, 585, 541))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBC68
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B0063F4
+ viewrect= tlbr(523, 533, 538, 540)
+ docrect= (523,534,538,540)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17600:
+flags=0x0
+owner=0x1A7D8520
+termList (0x1E4713B0): n=1: [BDHP] 1A7FDD08,
+typeDesc=63
+@0x0000: 'PhoenixMotorControlDevRef': typedef 'WPI_MotorControlDeviceRef.ctl'{0xD6140642, "Oct 23, 2017 4:49:06 PM"} cluster of 6 elements
+    @0x0000: 'DeviceStatus': cluster of 3 elements
+        @0x0000: 'status': boolean (TRUE or FALSE)
+        @0x0001: 'code': long [32-bit integer (-2147483648 to 2147483647)]
+        @0x0005: 'source': string
+    @0x0009: 'Type': typedef 'WPI_MotorControlType.ctl'{0x0, "non-strict"} unsigned word [16-bit integer (0 to 65535)] enum {PWM, CAN, DIO PWM}
+    @0x000B: 'PWM': cluster of 2 elements
+        @0x000B: 'PWM Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, PW
+M MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+        @0x000C: 'DeadBand': typedef 'WPI_PWMDeadband.ctl'{0xC5224BA1, "Oct 20, 2008 10:52:17 AM"} cluster of 7 elements
+            @0x000C: 'Name': string
+            @0x0010: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0014: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0018: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x001C: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0020: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+            @0x0024: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+    @0x0026: 'CAN': cluster of 6 elements
+        @0x0026: 'Device Number': unsigned byte [8-bit integer (0 to 255)
+        @0x0027: 'SetOutput VI Ref': Variant
+        @0x002B: 'GetOutput VI Ref': Variant
+        @0x002F: 'Enable VI Ref': Variant
+        @0x0033: 'Disable VI Ref': Variant
+        @0x0037: 'Data': Variant
+    @0x003B: 'Invert': boolean (TRUE or FALSE)
+    @0x003C: 'DIO PWM': cluster of 3 elements
+        @0x003C: 'PWM "Enable" Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM 
+MXP 2, PWM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+        @0x003D: 'DIOChannel': typedef 'FPGA_DIOChannel.ctl'{0xD40F3554, "Sep 26, 2016 4:28:04 PM"} unsigned byte [8-bit integer (0 to 255) enum {DIO 0, DIO 1, DIO 2, DIO 3, DIO 4, DIO 5, DIO 6, DIO 7, DIO 8, DIO 9, DIO MXP 0, DIO MXP 1, DIO MXP 2, DIO MX
+P 3, DIO MXP 4, DIO MXP 5, DIO MXP 6, DIO MXP 7, DIO MXP 8, DIO MXP 9, DIO MXP 10, DIO MXP 11, DIO MXP 12, DIO MXP 13, DIO MXP 14, DIO MXP 15, SPI Port CS1, SPI Port CS2, SPI Port CS3, SPI Port MISO, SPI Port MOSI, Invalid}
+        @0x003E: 'PWM Rate': double [64-bit real (~15 digit precision)]
+
+dsw=0: ignore min, ignore max, ignore inc
+dcoFiller=0x0
+ddo=0x1A7D75C0
+conNum=0xFFFFFFFF
+fpdcoFiller=0x0
+data=0x1B73FD88 opData={DeviceStatus => {status => False, code => 0, source => ""}, Type => PWM, PWM => {PWM Channel => PWM 1, DeadBand => {Name => "", maxPositivePwm => 0, minPositivePwm => 0, centerPwm => 0, maxNegativePwm => 0, minNegativePwm => 0, ang
+ularRange => 0}}, CAN , dfData={DeviceStatus => {status => False, code => 0, source => ""}, Type => PWM, PWM => {PWM Channel => PWM 1, DeadBand => {Name => "", maxPositivePwm => 0, minPositivePwm => 0, centerPwm => 0, maxNegativePwm => 0, minNegativePwm =
+> 0, angularRange => 0}}, CAN 
+Super Cluster Index=1
+data in table=0x1B73FD88 opData={DeviceStatus => {status => False, code => 0, source => ""}, Type => PWM, PWM => {PWM Channel => PWM 1, DeadBand => {Name => "", maxPositivePwm => 0, minPositivePwm => 0, centerPwm => 0, maxNegativePwm => 0, minNegativePwm 
+=> 0, angularRange => 0}}, CAN , dfData={DeviceStatus => {status => False, code => 0, source => ""}, Type => PWM, PWM => {PWM Channel => PWM 1, DeadBand => {Name => "", maxPositivePwm => 0, minPositivePwm => 0, centerPwm => 0, maxNegativePwm => 0, minNega
+tivePwm => 0, angularRange => 0}}, CAN 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17660:
+flags=0x0
+owner=0x1A7D75C0
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471420): n=0: 
+refList (0x1E4713E8): n=0: 
+rsrcID=3403
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af176c8:
+List (0x1AF176C8): n=6: 1A541BEC,1AF183E8,1A541D24,1A541D8C,1A7FE1F0,
+    1A541504,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17728:
+flags=0x0
+owner=0x1AF17908
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E4716F8): n=0: 
+refList (0x1E471490): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17788:
+flags=0x193A
+owner=0x1AF17908
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(109, 19, 126, 25) (in panel coords tlbr(783, 210, 800, 216))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af177e8:
+flags=0x840932
+owner=0x1AF17908
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(109, 19, 126, 92) (in panel coords tlbr(783, 210, 800, 283))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B0063B4
+ flags = 0x0
+ mode = 0x800402 (tHorizMargin | tRW | tTop | kLeftJustify | tLine)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBC34
+ viewrect= tlbr(110, 20, 125, 91)
+ docrect= (110,22,125,90)
+textLen= 1
+text= "0"
+Numeric format= "%#_g"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17848:
+flags=0x971146
+owner=0x1AF17908
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(88, 15, 105, 73) (in panel coords tlbr(762, 206, 779, 264))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBFDC
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EB95C
+ viewrect= tlbr(89, 16, 104, 72)
+ docrect= (89,17,104,72)
+textLen= 8
+text= "PWM Rate"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af178a8:
+List (0x1AF178A8): n=7: 1AF17848,1AF177E8,1B91C74C,1B91C7CC,1AF17788,
+    11B4AC40,1AF17728,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17908:
+flags=0x60042
+owner=0x1AF18028
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(88, 4, 130, 96) (in panel coords: tlbr(762, 195, 804, 287))
+partsList (0x1AF178A8): n=7: 1AF17848,1AF177E8,1B91C74C,1B91C7CC,
+    1AF17788,11B4AC40,1AF17728,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=62
+@0x0000: 'PWM Rate': double [64-bit real (~15 digit precision)]
+
+format= "%#_g"
+snFiller=0x0
+
+StdNum Private data
+min = -Inf, max = Inf, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17968:
+flags=0x0
+owner=0x1A781564
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471500): n=0: 
+refList (0x1E4714C8): n=0: 
+rsrcID=21605
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af179c8:
+flags=0x932
+owner=0x1A781564
+partID[12]= Ring Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(67, 19, 84, 96) (in panel coords tlbr(741, 210, 758, 287))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B8EBFB0
+ flags = 0x200
+ mode = 0x800404 (tHorizMargin | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBE2C
+ viewrect= tlbr(68, 20, 83, 95)
+ docrect= (68,22,83,94)
+textLen= 7
+text= "Invalid"
+index=31
+CPStrHandle buf=0x1B8EBE0C
+  0: DIO 0
+  1: DIO 1
+  2: DIO 2
+  3: DIO 3
+  4: DIO 4
+  5: DIO 5
+  6: DIO 6
+  7: DIO 7
+  8: DIO 8
+  9: DIO 9
+  10: DIO MXP 0
+  11: DIO MXP 1
+  12: DIO MXP 2
+  13: DIO MXP 3
+  14: DIO MXP 4
+  15: DIO MXP 5
+  16: DIO MXP 6
+  17: DIO MXP 7
+  18: DIO MXP 8
+  19: DIO MXP 9
+  20: DIO MXP 10
+  21: DIO MXP 11
+  22: DIO MXP 12
+  23: DIO MXP 13
+  24: DIO MXP 14
+  25: DIO MXP 15
+  26: SPI Port CS1
+  27: SPI Port CS2
+  28: SPI Port CS3
+  29: SPI Port MISO
+  30: SPI Port MOSI
+  31: Invalid
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17a28:
+flags=0x4194A
+owner=0x1A781564
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(67, 102, 84, 118) (in panel coords tlbr(741, 293, 758, 309))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B8EBC44
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBE34
+ viewrect= tlbr(68, 103, 83, 117)
+ docrect= (68,105,83,116)
+textLen= 2
+text= "31"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17a88:
+flags=0x17114E
+owner=0x1A781564
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(47, 15, 64, 24) (in panel coords tlbr(721, 206, 738, 215))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC094
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC058
+ viewrect= tlbr(48, 16, 63, 23)
+ docrect= (48,17,63,23)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17ae8:
+List (0x1AF17AE8): n=7: 1AF17A88,1AF17A28,1AF179C8,1B91C6CC,1B91C64C,
+    11B4ACC0,1AF17968,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17b48:
+flags=0x0
+owner=0x1AF17C08
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471570): n=0: 
+refList (0x1E471538): n=0: 
+rsrcID=3403
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17ba8:
+flags=0x971146
+owner=0x1AF17C08
+partID[16]= Name Label
+masterPart[8010]= Type Def's Control
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(47, 15, 64, 85) (in panel coords tlbr(721, 206, 738, 276))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B006448
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B006440
+ viewrect= tlbr(48, 16, 63, 84)
+ docrect= (48,17,63,84)
+textLen= 11
+text= "DIO Channel"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17c08:
+flags=0x1020
+owner=0x1AF18028
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(47, 4, 88, 100) (in panel coords: tlbr(721, 195, 762, 291))
+partsList (0x1E4715A8): n=3: 1AF17BA8,1AF17B48,1A781564,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=60
+@0x0000: 'DIOChannel': typedef 'FPGA_DIOChannel.ctl'{0xD40F3554, "Sep 26, 2016 4:28:04 PM"} unsigned byte [8-bit integer (0 to 255) enum {DIO 0, DIO 1, DIO 2, DIO 3, DIO 4, DIO 5, DIO 6, DIO 7, DIO 8, DIO 9, DIO MXP 0, DIO MXP 1, DIO MXP 2, DIO MXP 3, DIO
+ MXP 4, DIO MXP 5, DIO MXP 6, DIO MXP 7, DIO MXP 8, DIO MXP 9, DIO MXP 10, DIO MXP 11, DIO MXP 12, DIO MXP 13, DIO MXP 14, DIO MXP 15, SPI Port CS1, SPI Port CS2, SPI Port CS3, SPI Port MISO, SPI Port MOSI, Invalid}
+
+stamp=0xD40F3554 (Sep 26, 2016 4:28:04 PM)
+vi=0x07CE4800
+def val matches ctl VI, calculated = true, result = false
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17c68:
+flags=0x0
+owner=0x1AF17F08
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471618): n=0: 
+refList (0x1E4715E0): n=0: 
+rsrcID=3403
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17cc8:
+flags=0x0
+owner=0x1A781474
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471688): n=0: 
+refList (0x1E471650): n=0: 
+rsrcID=21605
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17d28:
+flags=0x932
+owner=0x1A781474
+partID[12]= Ring Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(24, 19, 43, 98) (in panel coords tlbr(698, 210, 717, 289))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B8EBC78
+ flags = 0x0
+ mode = 0x800404 (tHorizMargin | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B00644C
+ viewrect= tlbr(25, 20, 42, 97)
+ docrect= (25,22,40,96)
+textLen= 7
+text= "Invalid"
+index=20
+CPStrHandle buf=0x1B8EBE8C
+  0: PWM 0
+  1: PWM 1
+  2: PWM 2
+  3: PWM 3
+  4: PWM 4
+  5: PWM 5
+  6: PWM 6
+  7: PWM 7
+  8: PWM 8
+  9: PWM 9
+  10: PWM MXP 0
+  11: PWM MXP 1
+  12: PWM MXP 2
+  13: PWM MXP 3
+  14: PWM MXP 4
+  15: PWM MXP 5
+  16: PWM MXP 6
+  17: PWM MXP 7
+  18: PWM MXP 8
+  19: PWM MXP 9
+  20: Invalid
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17d88:
+flags=0x4194A
+owner=0x1A781474
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(24, 104, 41, 120) (in panel coords tlbr(698, 295, 715, 311))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B00643C
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBC54
+ viewrect= tlbr(25, 105, 40, 119)
+ docrect= (25,107,40,118)
+textLen= 2
+text= "20"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17de8:
+flags=0x17114E
+owner=0x1A781474
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(4, 15, 21, 24) (in panel coords tlbr(678, 206, 695, 215))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBCEC
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBE18
+ viewrect= tlbr(5, 16, 20, 23)
+ docrect= (5,17,20,23)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17e48:
+List (0x1AF17E48): n=7: 1AF17DE8,1AF17D88,1AF17D28,1B91B7CC,1B91B74C,
+    11B4AD00,1AF17CC8,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17ea8:
+flags=0x171146
+owner=0x1AF17F08
+partID[16]= Name Label
+masterPart[8010]= Type Def's Control
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(4, 15, 21, 142) (in panel coords tlbr(678, 206, 695, 333))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBEC8
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC01C
+ viewrect= tlbr(5, 16, 20, 141)
+ docrect= (5,17,20,141)
+textLen= 20
+text= "PWM "Enable" Channel"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17f08:
+flags=0x1020
+owner=0x1AF18028
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(4, 4, 47, 142) (in panel coords: tlbr(678, 195, 721, 333))
+partsList (0x1E4716C0): n=3: 1AF17EA8,1A781474,1AF17C68,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=58
+@0x0000: 'PWM "Enable" Channel': typedef 'FPGA_DIOPWMChannel.ctl'{0xCE313416, "Aug 14, 2013 9:18:14 AM"} unsigned byte [8-bit integer (0 to 255) enum {PWM 0, PWM 1, PWM 2, PWM 3, PWM 4, PWM 5, PWM 6, PWM 7, PWM 8, PWM 9, PWM MXP 0, PWM MXP 1, PWM MXP 2, P
+WM MXP 3, PWM MXP 4, PWM MXP 5, PWM MXP 6, PWM MXP 7, PWM MXP 8, PWM MXP 9, Invalid}
+
+stamp=0xCE313416 (Aug 14, 2013 9:18:14 AM)
+vi=0x07CE5D00
+def val matches ctl VI, calculated = true, result = false
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17f68:
+flags=0x0
+owner=0x1AF18028
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471768): n=0: 
+refList (0x1E471730): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af17fc8:
+flags=0x97114A
+owner=0x1AF18028
+partID[16]= Name Label
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x5
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(388, 196, 405, 225) (in panel coords tlbr(678, 195, 695, 224))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBEB4
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC034
+ viewrect= tlbr(389, 197, 404, 224)
+ docrect= (389,198,404,224)
+textLen= 4
+text= "Pane"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18028:
+Pane
+flags=0x261110
+owner=0x1A541BEC
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(388, 196, 514, 334) (in panel coords: tlbr(678, 195, 804, 333))
+partsList (0x11B4AE40): n=6: 1AF17FC8,11B4AE00,11B4ADC0,11B4AD80,
+    11B4AD40,1AF17F68,
+zPlaneList (0x11B4AC80): n=3: 1AF17908,1AF17C08,1AF17F08,
+paneFlags=0x40101
+origin=hv(-4,-4)
+docBounds=tlbr(-27, -30, 161, 176)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18088:
+flags=0x0
+owner=0x1A541BEC
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E4717D8): n=0: 
+refList (0x1E4717A0): n=0: 
+rsrcID=21607
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af180e8:
+flags=0x971146
+owner=0x1A541BEC
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(365, 192, 382, 247) (in panel coords tlbr(655, 191, 672, 246))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBEF8
+ flags = 0x0
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBFC4
+ viewrect= tlbr(366, 193, 381, 246)
+ docrect= (366,194,381,246)
+textLen= 7
+text= "DIO PWM"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18148:
+flags=0x0
+owner=0x1AF183E8
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471880): n=0: 
+refList (0x1E471848): n=0: 
+rsrcID=3403
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af181a8:
+flags=0x0
+owner=0x1A7817BC
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E4718F0): n=0: 
+refList (0x1E4718B8): n=0: 
+rsrcID=21605
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18208:
+flags=0x932
+owner=0x1A7817BC
+partID[12]= Ring Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(141, 22, 160, 122) (in panel coords tlbr(431, 21, 450, 121))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B8EBFBC
+ flags = 0x0
+ mode = 0x800404 (tHorizMargin | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B006430
+ viewrect= tlbr(142, 23, 159, 121)
+ docrect= (142,25,157,120)
+textLen= 3
+text= "PWM"
+index=0
+CPStrHandle buf=0x1B8EBD78
+  0: PWM
+  1: CAN
+  2: DIO PWM
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18268:
+flags=0x4194A
+owner=0x1A7817BC
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(141, 128, 158, 144) (in panel coords tlbr(431, 127, 448, 143))
+fgColor=0xD2D2D2
+bgColor=0xFAFAFA
+textRec=0x1B8EBC30
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBFE0
+ viewrect= tlbr(142, 129, 157, 143)
+ docrect= (142,131,157,142)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af182c8:
+flags=0x17114E
+owner=0x1A7817BC
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(121, 18, 138, 27) (in panel coords tlbr(411, 17, 428, 26))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBD90
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EC014
+ viewrect= tlbr(122, 19, 137, 26)
+ docrect= (122,20,137,26)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18328:
+List (0x1AF18328): n=7: 1AF182C8,1AF18268,1AF18208,1B91B8CC,1B91B84C,
+    11B4AF00,1AF181A8,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18388:
+flags=0x171146
+owner=0x1AF183E8
+partID[16]= Name Label
+masterPart[8010]= Type Def's Control
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(121, 18, 138, 47) (in panel coords tlbr(411, 17, 428, 46))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBC20
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B0063E4
+ viewrect= tlbr(122, 19, 137, 46)
+ docrect= (122,20,137,46)
+textLen= 4
+text= "Type"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af183e8:
+flags=0x1020
+owner=0x1A7FEA90
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(121, 7, 164, 126) (in panel coords: tlbr(411, 6, 454, 125))
+partsList (0x1E471928): n=3: 1AF18388,1A7817BC,1AF18148,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=55
+@0x0000: 'Type': typedef 'WPI_MotorControlType.ctl'{0x0, "non-strict"} unsigned word [16-bit integer (0 to 65535)] enum {PWM, CAN, DIO PWM}
+
+stamp=0x0 (non-strict)
+vi=0x07CE2F80
+def val matches ctl VI, calculated = true, result = false
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18448:
+flags=0x0
+owner=0x11B45068
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471998): n=0: 
+refList (0x1E471960): n=0: 
+rsrcID=3403
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af184a8:
+List (0x1AF184A8): n=7: 1B9E4A20,1B9E5560,1B9E5320,1B9E50E0,1B9E4EA0,
+    1B9E4C60,1B9E4780,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18508:
+flags=0x0
+owner=0x1B9E4780
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471A08): n=0: 
+refList (0x1E4719D0): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18568:
+flags=0x193A
+owner=0x1B9E4780
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(236, 33, 253, 39) (in panel coords tlbr(628, 236, 645, 242))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af185c8:
+flags=0x40932
+owner=0x1B9E4780
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(236, 33, 253, 79) (in panel coords tlbr(628, 236, 645, 282))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B8EBE1C
+ flags = 0x200
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBFEC
+ viewrect= tlbr(237, 34, 252, 78)
+ docrect= (237,36,252,77)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1af18628:
+flags=0x171146
+owner=0x1B9E4780
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(215, 29, 232, 105) (in panel coords tlbr(607, 232, 624, 308))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC048
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B006434
+ viewrect= tlbr(216, 30, 231, 104)
+ docrect= (216,31,231,104)
+textLen= 12
+text= "angularRange"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b30256c:
+CLStrObj:  num strings=1
+0 = <<B>source</B> describes the origin of the error or warning.
+
+Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.>
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b4452cc:
+CLStrObj:  num strings=1
+0 = <<B>code</B> is the error or warning code.
+
+Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.>
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91b74c:
+flags=0x1932
+owner=0x1A781474
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x2001
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(31, 4, 43, 16) (in panel coords tlbr(705, 195, 717, 207))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(31, 4, 43, 16) (in panel coords tlbr(705, 195, 717, 207))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(31, 4, 43, 16) (in panel coords tlbr(705, 195, 717, 207))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91b7cc:
+flags=0x1936
+owner=0x1A781474
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(19, 4, 31, 16) (in panel coords tlbr(693, 195, 705, 207))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(19, 4, 31, 16) (in panel coords tlbr(693, 195, 705, 207))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(19, 4, 31, 16) (in panel coords tlbr(693, 195, 705, 207))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91b84c:
+flags=0x1932
+owner=0x1A7817BC
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x2001
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(148, 7, 160, 19) (in panel coords tlbr(438, 6, 450, 18))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(148, 7, 160, 19) (in panel coords tlbr(438, 6, 450, 18))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(148, 7, 160, 19) (in panel coords tlbr(438, 6, 450, 18))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91b8cc:
+flags=0x1936
+owner=0x1A7817BC
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(136, 7, 148, 19) (in panel coords tlbr(426, 6, 438, 18))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(136, 7, 148, 19) (in panel coords tlbr(426, 6, 438, 18))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(136, 7, 148, 19) (in panel coords tlbr(426, 6, 438, 18))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91b94c:
+flags=0x1932
+owner=0x1B9E4780
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(245, 18, 257, 30) (in panel coords tlbr(637, 221, 649, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(245, 18, 257, 30) (in panel coords tlbr(637, 221, 649, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(245, 18, 257, 30) (in panel coords tlbr(637, 221, 649, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91b9cc:
+flags=0x1936
+owner=0x1B9E4780
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(231, 18, 243, 30) (in panel coords tlbr(623, 221, 635, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(231, 18, 243, 30) (in panel coords tlbr(623, 221, 635, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(231, 18, 243, 30) (in panel coords tlbr(623, 221, 635, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91ba4c:
+flags=0x1932
+owner=0x1B9E4C60
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(203, 18, 215, 30) (in panel coords tlbr(595, 221, 607, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(203, 18, 215, 30) (in panel coords tlbr(595, 221, 607, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(203, 18, 215, 30) (in panel coords tlbr(595, 221, 607, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91bacc:
+flags=0x1936
+owner=0x1B9E4C60
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(189, 18, 201, 30) (in panel coords tlbr(581, 221, 593, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(189, 18, 201, 30) (in panel coords tlbr(581, 221, 593, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(189, 18, 201, 30) (in panel coords tlbr(581, 221, 593, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91bb4c:
+flags=0x1932
+owner=0x1B9E4EA0
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(161, 18, 173, 30) (in panel coords tlbr(553, 221, 565, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(161, 18, 173, 30) (in panel coords tlbr(553, 221, 565, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(161, 18, 173, 30) (in panel coords tlbr(553, 221, 565, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c04c:
+flags=0x1932
+owner=0x1B9E50E0
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(119, 18, 131, 30) (in panel coords tlbr(511, 221, 523, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(119, 18, 131, 30) (in panel coords tlbr(511, 221, 523, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(119, 18, 131, 30) (in panel coords tlbr(511, 221, 523, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c0cc:
+flags=0x1932
+owner=0x1B9E5320
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(77, 18, 89, 30) (in panel coords tlbr(469, 221, 481, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(77, 18, 89, 30) (in panel coords tlbr(469, 221, 481, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(77, 18, 89, 30) (in panel coords tlbr(469, 221, 481, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c14c:
+flags=0x1936
+owner=0x1B9E50E0
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(105, 18, 117, 30) (in panel coords tlbr(497, 221, 509, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(105, 18, 117, 30) (in panel coords tlbr(497, 221, 509, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(105, 18, 117, 30) (in panel coords tlbr(497, 221, 509, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c64c:
+flags=0x1932
+owner=0x1A781564
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x2001
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(74, 4, 86, 16) (in panel coords tlbr(748, 195, 760, 207))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(74, 4, 86, 16) (in panel coords tlbr(748, 195, 760, 207))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(74, 4, 86, 16) (in panel coords tlbr(748, 195, 760, 207))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c6cc:
+flags=0x1936
+owner=0x1A781564
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(62, 4, 74, 16) (in panel coords tlbr(736, 195, 748, 207))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(62, 4, 74, 16) (in panel coords tlbr(736, 195, 748, 207))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(62, 4, 74, 16) (in panel coords tlbr(736, 195, 748, 207))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c74c:
+flags=0x1936
+owner=0x1AF17908
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(104, 4, 116, 16) (in panel coords tlbr(778, 195, 790, 207))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(104, 4, 116, 16) (in panel coords tlbr(778, 195, 790, 207))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(104, 4, 116, 16) (in panel coords tlbr(778, 195, 790, 207))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c7cc:
+flags=0x1932
+owner=0x1AF17908
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(118, 4, 130, 16) (in panel coords tlbr(792, 195, 804, 207))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(118, 4, 130, 16) (in panel coords tlbr(792, 195, 804, 207))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(118, 4, 130, 16) (in panel coords tlbr(792, 195, 804, 207))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91c9cc:
+flags=0x0
+owner=0x00000000
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(0, 0, 0, 0) (in panel coords: tlbr(0, 0, 0, 0))
+partsList : n=0
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=0
+Undefined TDR
+ddoList (0x11B4AC00): n=2: 1A7D8100,1AF17600,
+pane = 0x1A7D8520
+conPane=0x1B444B94
+cpStartLink=0x00000000
+currentDS=0x07E9B620
+flags=0x0
+owner=0x1B91C9CC
+keyMappingList (0x1A7D94D8): n=0: 
+reserved=0x0
+
+
+
+
+Object 0x1b91c94c:
+flags=0x0
+owner=0x00000000
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(0, 0, 0, 0) (in panel coords: tlbr(0, 0, 0, 0))
+partsList : n=0
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=0
+Undefined TDR
+ddoList (0x1A7D6F78): n=1: 1A7D8100,
+pane = 0x1A7D8520
+conPane=0x1B444B94
+cpStartLink=0x00000000
+currentDS=0x00000000
+flags=0x0
+owner=0x1B91C9CC
+keyMappingList (0x1A7D94D8): n=0: 
+reserved=0x0
+
+
+
+
+Object 0x1b91cccc:
+flags=0x1936
+owner=0x1B9E5320
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(63, 18, 75, 30) (in panel coords tlbr(455, 221, 467, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(63, 18, 75, 30) (in panel coords tlbr(455, 221, 467, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(63, 18, 75, 30) (in panel coords tlbr(455, 221, 467, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91cd4c:
+flags=0x1932
+owner=0x1B9E5560
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(35, 18, 47, 30) (in panel coords tlbr(427, 221, 439, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(35, 18, 47, 30) (in panel coords tlbr(427, 221, 439, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(35, 18, 47, 30) (in panel coords tlbr(427, 221, 439, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91cdcc:
+flags=0x1936
+owner=0x1B9E5560
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(21, 18, 33, 30) (in panel coords tlbr(413, 221, 425, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(21, 18, 33, 30) (in panel coords tlbr(413, 221, 425, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(21, 18, 33, 30) (in panel coords tlbr(413, 221, 425, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91ce4c:
+flags=0x1936
+owner=0x1A7813FC
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x2001
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(68, 0, 80, 12) (in panel coords tlbr(322, 214, 334, 226))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(68, 0, 80, 12) (in panel coords tlbr(322, 214, 334, 226))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(68, 0, 80, 12) (in panel coords tlbr(322, 214, 334, 226))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91cecc:
+flags=0x1936
+owner=0x1A7813FC
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(56, 0, 68, 12) (in panel coords tlbr(310, 214, 322, 226))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(56, 0, 68, 12) (in panel coords tlbr(310, 214, 322, 226))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(56, 0, 68, 12) (in panel coords tlbr(310, 214, 322, 226))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91cf4c:
+flags=0x1932
+owner=0x1A7FDE30
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(35, 1, 47, 13) (in panel coords tlbr(508, 20, 520, 32))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(35, 1, 47, 13) (in panel coords tlbr(508, 20, 520, 32))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(35, 1, 47, 13) (in panel coords tlbr(508, 20, 520, 32))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91cfcc:
+flags=0x1936
+owner=0x1A7FDE30
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(21, 1, 33, 13) (in panel coords tlbr(494, 20, 506, 32))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(21, 1, 33, 13) (in panel coords tlbr(494, 20, 506, 32))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(21, 1, 33, 13) (in panel coords tlbr(494, 20, 506, 32))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91d04c:
+flags=0x1932
+owner=0x1A7FE610
+partID[3]= Decrement
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x2001
+image [IMAGE] 0xFCC4054D (kPiccImage)
+bounds= tlbr(152, 123, 164, 135) (in panel coords tlbr(323, 49, 335, 61))
+fgColor=0xB0B0B4
+bgColor=0xB0B0B4
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(152, 123, 164, 135) (in panel coords tlbr(323, 49, 335, 61))
+    fgColor=0xB0B0B4
+    bgColor=0xB0B0B4
+    image=0xFCC4054D (kPiccImage)
+table[1]= 
+    bounds= tlbr(152, 123, 164, 135) (in panel coords tlbr(323, 49, 335, 61))
+    fgColor=0x99999D
+    bgColor=0x99999D
+    image=0xFCC4054D (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91d0cc:
+flags=0x1932
+owner=0x1A7FE610
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(140, 123, 152, 135) (in panel coords tlbr(311, 49, 323, 61))
+fgColor=0xB0B0B4
+bgColor=0xB0B0B4
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(140, 123, 152, 135) (in panel coords tlbr(311, 49, 323, 61))
+    fgColor=0xB0B0B4
+    bgColor=0xB0B0B4
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(140, 123, 152, 135) (in panel coords tlbr(311, 49, 323, 61))
+    fgColor=0x99999D
+    bgColor=0x99999D
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b91d14c:
+flags=0x1936
+owner=0x1B9E4EA0
+partID[2]= Increment
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x3000
+image [IMAGE] 0xFCC6054C (kPiccImage)
+bounds= tlbr(147, 18, 159, 30) (in panel coords tlbr(539, 221, 551, 233))
+fgColor=0xBCBCBC
+bgColor=0xBCBCBC
+nCosms=0x2
+index=0x0
+table[0]= 
+    bounds= tlbr(147, 18, 159, 30) (in panel coords tlbr(539, 221, 551, 233))
+    fgColor=0xBCBCBC
+    bgColor=0xBCBCBC
+    image=0xFCC6054C (kPiccImage)
+table[1]= 
+    bounds= tlbr(147, 18, 159, 30) (in panel coords tlbr(539, 221, 551, 233))
+    fgColor=0x969696
+    bgColor=0x969696
+    image=0xFCC6054C (kPiccImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4720:
+List (0x1B9E4720): n=7: 1AF18628,1AF185C8,1B91B9CC,1B91B94C,1AF18568,
+    11B4B0C0,1AF18508,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4780:
+flags=0x60002
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(215, 18, 257, 105) (in panel coords: tlbr(607, 221, 649, 308))
+partsList (0x1B9E4720): n=7: 1AF18628,1AF185C8,1B91B9CC,1B91B94C,
+    1AF18568,11B4B0C0,1AF18508,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=54
+@0x0000: 'angularRange': unsigned word [16-bit integer (0 to 65535)]
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = 0, max = 65535, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e47e0:
+List (0x1B9E47E0): n=7: 1B9E4780,1B9E4A20,1B9E4C60,1B9E4EA0,1B9E50E0,
+    1B9E5320,1B9E5560,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4840:
+flags=0x0
+owner=0x1B9E4A20
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471A78): n=0: 
+refList (0x1E471A40): n=0: 
+rsrcID=21701
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e48a0:
+flags=0x932
+owner=0x1B9E4A20
+partID[11]= Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(-18, 22, 1, 114) (in panel coords tlbr(374, 225, 393, 317))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B00642C
+ flags = 0x0
+ mode = 0x800404 (tHorizMargin | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EC09C
+ viewrect= tlbr(-17, 23, 0, 113)
+ docrect= (-17,25,-2,112)
+textLen= 0
+text= ""
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4900:
+flags=0x193A
+owner=0x1B9E4A20
+partID[118]= Radix Shadow
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xEF9003B3 (kSubImage)
+bounds= tlbr(-20, 22, 1, 28) (in panel coords tlbr(372, 225, 393, 231))
+fgColor=0x7586A0
+bgColor=0x7586A0
+nCosms=0x4
+    table[0]=0xEF9003B3 (kSubImage)
+    table[1]=0xEF8E03B4 (kSubImage)
+    table[2]=0xEF8C03B5 (kSubImage)
+    table[3]=0xEF8A03B6 (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4960:
+flags=0x193A
+owner=0x1B9E4A20
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1008
+image [IMAGE] 0xEF9003B3 (kSubImage)
+bounds= tlbr(-16, 22, -4, 28) (in panel coords tlbr(376, 225, 388, 231))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x4
+    table[0]=0xEF9003B3 (kSubImage)
+    table[1]=0xEF8E03B4 (kSubImage)
+    table[2]=0xEF8C03B5 (kSubImage)
+    table[3]=0xEF8A03B6 (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e49c0:
+flags=0x171146
+owner=0x1B9E4A20
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(-41, 18, -24, 53) (in panel coords tlbr(351, 221, 368, 256))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC08C
+ flags = 0x600
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBDE0
+ viewrect= tlbr(-40, 19, -25, 52)
+ docrect= (-40,20,-25,52)
+textLen= 4
+text= "Name"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4a20:
+flags=0x0
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(-41, 18, 5, 118) (in panel coords: tlbr(351, 221, 397, 321))
+partsList (0x11B4AFC0): n=6: 1B9E49C0,1B9E4960,1B9E4900,1B9E48A0,
+    11B4AF80,1B9E4840,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=53
+@0x0000: 'Name': string
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4a80:
+flags=0x0
+owner=0x1B9E4C60
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471AE8): n=0: 
+refList (0x1E471AB0): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4ae0:
+flags=0x193A
+owner=0x1B9E4C60
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(194, 33, 211, 39) (in panel coords tlbr(586, 236, 603, 242))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4b40:
+flags=0x40932
+owner=0x1B9E4C60
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(194, 33, 211, 79) (in panel coords tlbr(586, 236, 603, 282))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B0063CC
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBA74
+ viewrect= tlbr(195, 34, 210, 78)
+ docrect= (195,36,210,77)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4ba0:
+flags=0x171146
+owner=0x1B9E4C60
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(173, 29, 190, 127) (in panel coords tlbr(565, 232, 582, 330))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC038
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBCF8
+ viewrect= tlbr(174, 30, 189, 126)
+ docrect= (174,31,189,126)
+textLen= 14
+text= "minNegativePwm"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4c00:
+List (0x1B9E4C00): n=7: 1B9E4BA0,1B9E4B40,1B91BACC,1B91BA4C,1B9E4AE0,
+    11B4B000,1B9E4A80,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4c60:
+flags=0x60042
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(173, 18, 215, 127) (in panel coords: tlbr(565, 221, 607, 330))
+partsList (0x1B9E4C00): n=7: 1B9E4BA0,1B9E4B40,1B91BACC,1B91BA4C,
+    1B9E4AE0,11B4B000,1B9E4A80,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=52
+@0x0000: 'minNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = -2147483648, max = 2147483647, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4cc0:
+flags=0x0
+owner=0x1B9E4EA0
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471B58): n=0: 
+refList (0x1E471B20): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4d20:
+flags=0x193A
+owner=0x1B9E4EA0
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(152, 33, 169, 39) (in panel coords tlbr(544, 236, 561, 242))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4d80:
+flags=0x40932
+owner=0x1B9E4EA0
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(152, 33, 169, 79) (in panel coords tlbr(544, 236, 561, 282))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B8EBE08
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBC60
+ viewrect= tlbr(153, 34, 168, 78)
+ docrect= (153,36,168,77)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4de0:
+flags=0x171146
+owner=0x1B9E4EA0
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(131, 29, 148, 128) (in panel coords tlbr(523, 232, 540, 331))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B006428
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBF30
+ viewrect= tlbr(132, 30, 147, 127)
+ docrect= (132,31,147,127)
+textLen= 14
+text= "maxNegativePwm"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4e40:
+List (0x1B9E4E40): n=7: 1B9E4DE0,1B9E4D80,1B91D14C,1B91BB4C,1B9E4D20,
+    11B4B040,1B9E4CC0,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4ea0:
+flags=0x60042
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(131, 18, 173, 128) (in panel coords: tlbr(523, 221, 565, 331))
+partsList (0x1B9E4E40): n=7: 1B9E4DE0,1B9E4D80,1B91D14C,1B91BB4C,
+    1B9E4D20,11B4B040,1B9E4CC0,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=51
+@0x0000: 'maxNegativePwm': long [32-bit integer (-2147483648 to 2147483647)]
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = -2147483648, max = 2147483647, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4f00:
+flags=0x0
+owner=0x1B9E50E0
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471CA8): n=0: 
+refList (0x1E471B90): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4f60:
+flags=0x193A
+owner=0x1B9E50E0
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(110, 33, 127, 39) (in panel coords tlbr(502, 236, 519, 242))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e4fc0:
+flags=0x40932
+owner=0x1B9E50E0
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(110, 33, 127, 79) (in panel coords tlbr(502, 236, 519, 282))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B8EC0AC
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBDF0
+ viewrect= tlbr(111, 34, 126, 78)
+ docrect= (111,36,126,77)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5020:
+flags=0x171146
+owner=0x1B9E50E0
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(89, 29, 106, 92) (in panel coords tlbr(481, 232, 498, 295))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC060
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBEB8
+ viewrect= tlbr(90, 30, 105, 91)
+ docrect= (90,31,105,91)
+textLen= 9
+text= "centerPwm"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5080:
+List (0x1B9E5080): n=7: 1B9E5020,1B9E4FC0,1B91C14C,1B91C04C,1B9E4F60,
+    11B4B080,1B9E4F00,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e50e0:
+flags=0x60042
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(89, 18, 131, 92) (in panel coords: tlbr(481, 221, 523, 295))
+partsList (0x1B9E5080): n=7: 1B9E5020,1B9E4FC0,1B91C14C,1B91C04C,
+    1B9E4F60,11B4B080,1B9E4F00,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=50
+@0x0000: 'centerPwm': long [32-bit integer (-2147483648 to 2147483647)]
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = -2147483648, max = 2147483647, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5140:
+flags=0x0
+owner=0x1B9E5320
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471C00): n=0: 
+refList (0x1E471BC8): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e51a0:
+flags=0x193A
+owner=0x1B9E5320
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(68, 33, 85, 39) (in panel coords tlbr(460, 236, 477, 242))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5200:
+flags=0x40932
+owner=0x1B9E5320
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(68, 33, 85, 79) (in panel coords tlbr(460, 236, 477, 282))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B8EBF84
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EBFAC
+ viewrect= tlbr(69, 34, 84, 78)
+ docrect= (69,36,84,77)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5260:
+flags=0x171146
+owner=0x1B9E5320
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(47, 29, 64, 121) (in panel coords tlbr(439, 232, 456, 324))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBC90
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B0063C8
+ viewrect= tlbr(48, 30, 63, 120)
+ docrect= (48,31,63,120)
+textLen= 14
+text= "minPositivePwm"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e52c0:
+List (0x1B9E52C0): n=7: 1B9E5260,1B9E5200,1B91CCCC,1B91C0CC,1B9E51A0,
+    11B4B100,1B9E5140,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5320:
+flags=0x60042
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(47, 18, 89, 121) (in panel coords: tlbr(439, 221, 481, 324))
+partsList (0x1B9E52C0): n=7: 1B9E5260,1B9E5200,1B91CCCC,1B91C0CC,
+    1B9E51A0,11B4B100,1B9E5140,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=49
+@0x0000: 'minPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = -2147483648, max = 2147483647, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5380:
+flags=0x0
+owner=0x1B9E5560
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1E471C70): n=0: 
+refList (0x1E471C38): n=0: 
+rsrcID=21003
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e53e0:
+flags=0x193A
+owner=0x1B9E5560
+partID[15]= Radix
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x10C0
+image [IMAGE] 0xF060034B (kSubImage)
+bounds= tlbr(26, 33, 43, 39) (in panel coords tlbr(418, 236, 435, 242))
+fgColor=0xD9DADC
+bgColor=0x7586A0
+nCosms=0x5
+    table[0]=0xF060034B (kSubImage)
+    table[1]=0xF05E034C (kSubImage)
+    table[2]=0xF05C034D (kSubImage)
+    table[3]=0xF05A034E (kSubImage)
+    table[4]=0xEFA203AA (kSubImage)
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5440:
+flags=0x40932
+owner=0x1B9E5560
+partID[10]= Numeric Text
+masterPart[9]= Frame
+partOrder=0
+howGrow=0xF0
+image [IMAGE] 0xFE22049E (kPiccImage)
+bounds= tlbr(26, 33, 43, 79) (in panel coords tlbr(418, 236, 435, 282))
+fgColor=0xFAFAFA
+bgColor=0xFAFAFA
+textRec=0x1B8EBD70
+ flags = 0x0
+ mode = 0x800400 (tHorizMargin | tRW | tTop | kLeftJustify | tNoWrap)
+ fontRunColor = 0x0, bgColor= 0xFAFAFA
+ text handle = 0x1B8EC0BC
+ viewrect= tlbr(27, 34, 42, 78)
+ docrect= (27,36,42,77)
+textLen= 1
+text= "0"
+Numeric format= "%.0f"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e54a0:
+flags=0x171146
+owner=0x1B9E5560
+partID[16]= Name Label
+masterPart[9]= Frame
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(5, 29, 22, 122) (in panel coords tlbr(397, 232, 414, 325))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B006424
+ flags = 0x200
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B006420
+ viewrect= tlbr(6, 30, 21, 121)
+ docrect= (6,31,21,121)
+textLen= 14
+text= "maxPositivePwm"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5500:
+List (0x1B9E5500): n=7: 1B9E54A0,1B9E5440,1B91CDCC,1B91CD4C,1B9E53E0,
+    11B4B140,1B9E5380,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5560:
+flags=0x60042
+owner=0x1B9E5680
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0x0
+bounds= tlbr(5, 18, 47, 122) (in panel coords: tlbr(397, 221, 439, 325))
+partsList (0x1B9E5500): n=7: 1B9E54A0,1B9E5440,1B91CDCC,1B91CD4C,
+    1B9E53E0,11B4B140,1B9E5380,
+description=0x00000000
+dsw=0: ignore min, ignore max, ignore inc
+ddoIndex=0
+typeDesc=48
+@0x0000: 'maxPositivePwm': long [32-bit integer (-2147483648 to 2147483647)]
+
+format= "%.0f"
+snFiller=0x0
+
+StdNum Private data
+min = -2147483648, max = 2147483647, inc = 0
+
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e55c0:
+flags=0x0
+owner=0x1B9E5680
+partID[66]= Annex
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x0
+oldAttrNodeList : n=0
+Wizard Data=0x00000000
+prop/invokeNodeList (0x1A7D85C0): n=0: 
+refList (0x1A7D8588): n=0: 
+rsrcID=0
+eOracleIdx=0
+runTimeMenuString=
+validatedACLState=0
+dragDropFlags=0x0
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5620:
+flags=0x17114A
+owner=0x1B9E5680
+partID[16]= Name Label
+masterPart[28]= Pane Content Area
+partOrder=0
+howGrow=0x5
+image [IMAGE] 0xFFEE03B8 (kPiccImage)
+bounds= tlbr(97, 7, 114, 36) (in panel coords tlbr(351, 221, 368, 250))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EC090
+ flags = 0x0
+ mode = 0x404 ( | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBF00
+ viewrect= tlbr(98, 8, 113, 35)
+ docrect= (98,9,113,35)
+textLen= 4
+text= "Pane"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1b9e5680:
+Pane
+flags=0x261110
+owner=0x1A541EC4
+partID = 0
+masterPart = 0
+partOrder=0
+howGrow=0xF0
+bounds= tlbr(97, 7, 395, 117) (in panel coords: tlbr(351, 221, 649, 331))
+partsList (0x11B4B280): n=6: 1B9E5620,11B4B240,11B4B200,11B4B1C0,
+    11B4B180,1B9E55C0,
+zPlaneList (0x1B9E47E0): n=7: 1B9E4780,1B9E4A20,1B9E4C60,1B9E4EA0,
+    1B9E50E0,1B9E5320,1B9E5560,
+paneFlags=0x40101
+origin=hv(-18,41)
+docBounds=tlbr(-115, -9, 331, 155)
+minPaneSize=hv(1,1)
+growObj=0x00000000
+toptr=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4713b0:
+List (0x1E4713B0): n=1: 1A7FDD08,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4713e8:
+List (0x1E4713E8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471420:
+List (0x1E471420): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471458:
+List (0x1E471458): n=3: 1AF17F08,1AF17C08,1AF17908,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471490:
+List (0x1E471490): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4714c8:
+List (0x1E4714C8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471500:
+List (0x1E471500): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471538:
+List (0x1E471538): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471570:
+List (0x1E471570): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4715a8:
+List (0x1E4715A8): n=3: 1AF17BA8,1AF17B48,1A781564,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4715e0:
+List (0x1E4715E0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471618:
+List (0x1E471618): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471650:
+List (0x1E471650): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471688:
+List (0x1E471688): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4716c0:
+List (0x1E4716C0): n=3: 1AF17EA8,1A781474,1AF17C68,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4716f8:
+List (0x1E4716F8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471730:
+List (0x1E471730): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471768:
+List (0x1E471768): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4717a0:
+List (0x1E4717A0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4717d8:
+List (0x1E4717D8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471810:
+List (0x1E471810): n=4: 1AF180E8,11B4AEC0,11B4AE80,1AF18088,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471848:
+List (0x1E471848): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471880:
+List (0x1E471880): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4718b8:
+List (0x1E4718B8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4718f0:
+List (0x1E4718F0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471928:
+List (0x1E471928): n=3: 1AF18388,1A7817BC,1AF18148,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471960:
+List (0x1E471960): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471998:
+List (0x1E471998): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e4719d0:
+List (0x1E4719D0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471a08:
+List (0x1E471A08): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471a40:
+List (0x1E471A40): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471a78:
+List (0x1E471A78): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471ab0:
+List (0x1E471AB0): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471ae8:
+List (0x1E471AE8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471b20:
+List (0x1E471B20): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471b58:
+List (0x1E471B58): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471b90:
+List (0x1E471B90): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471bc8:
+List (0x1E471BC8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471c00:
+List (0x1E471C00): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471c38:
+List (0x1E471C38): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471c70:
+List (0x1E471C70): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1e471ca8:
+List (0x1E471CA8): n=0: 
+
+
+
+
+Object 0x00000000:
+
+
+
+Block diagram backuplist:
+
+  BkUpList (0x1A4B28C4): n=24
+  current   previous
+    1B3182CC      1B31988C      ObjHeapHdrExtension
+    1A468E20      1A468E90      List
+    1A5E70CC      0      Wire Table
+    1A7D9B28      0      Signal
+    1A7D9C48      0      Label
+    1A7DA4E8      1A7D9CA8      SelfRefNode
+    1A7DA908      1A468DE8      Terminal
+    1A7DB550      1A7FDC08      List
+    1A7DB590      1A7FDC48      List
+    1A7DC510      1A7FDD88      Diagram
+    1A7FDBC8      0      List
+    1A7FDD08      0      Front Panel Terminal
+
+
+Object 0x1b3182cc:
+root=0x1A7DC510
+selList=0x1A7DB750
+idx=0x67
+state=0x0000
+masterWizard=0x00000000
+blinkList=0x00000000
+textObj=0x1A7D9C48
+textRec=0x1B8EBC40
+stash=0x00000000
+orderList=0x00000000
+focusPath=0x1B8EBCFC
+  (objID=0x1A7DC510, class=DIAG, ltype=1(kZPlane), index=0)
+  (objID=0x1A7FDD08, class=TERM, ltype=0(kParts), index=0)
+  (objID=0x1A7D9C48, class=COSM, ltype=2(kSelf), index=0)
+Window record fields:
+	mWind = 0x080
+	mFlags = 0
+	mEdittimePos = (-1,-1)
+	mEdittimeWidth = 0
+	mEdittimeHeight = 0
+volFields:mKeyEventState=0
+dBounds=tlbr(49, -43, 367, 696)
+pBounds=tlbr(46, 0, 443, 748)
+origin=hv(193,173)
+heapMods=0xC6001083
+ctleditObj=0x00000000
+bkupList=0x1A4B28C4
+bkupState=0
+bkupListList=0x1A7D9D68
+selState=0
+grabHandleList=0x1A7DA488
+
+
+
+
+Object 0x1b31988c:
+root=0x1A7DC510
+selList=0x00000000
+idx=0x67
+state=0x0000
+masterWizard=0x00000000
+blinkList=0x00000000
+textObj=0x00000000
+textRec=0x00000000
+stash=0x00000000
+orderList=0x00000000
+focusPath=0x1B8EBFD8
+Window record fields:
+	mWind = 0x080
+	mFlags = 0
+	mEdittimePos = (-1,-1)
+	mEdittimeWidth = 0
+	mEdittimeHeight = 0
+volFields:mKeyEventState=0
+dBounds=tlbr(49, -43, 367, 696)
+pBounds=tlbr(46, 0, 443, 748)
+origin=hv(193,173)
+heapMods=0xC6001083
+ctleditObj=0x00000000
+bkupList=0x1A4B2D64
+bkupState=0
+bkupListList=0x00000000
+selState=0
+grabHandleList=0x1A7DA488
+
+
+
+
+Object 0x1a468e20:
+List (0x1A468E20): n=1: 1A7D9B28,
+
+
+
+
+Object 0x1a468e90:
+List (0x1A468E90): n=0: 
+
+
+
+
+Object 0x1a5e70cc:
+flags = 0x0
+owner = 0x1A7D9B28
+0001:inTerm, 0002:invalR, 0004:invalD,   0008:sel,     0010:selR, 0020:selD
+0100:loose,  0200:onPath, 1000:stretchH, 2000:stretchV,
+joint count=3, logical size=224
+    [ 1]: upStreamJt= 0, link=0x000000, flags=0x0001 hv=( 373, 184) uldr=[ 0, 0, 0, 2]
+    [ 2]: upStreamJt= 1, link=0x030001, flags=0x0001 hv=( 404, 184) uldr=[ 0, 1, 0, 0]
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9b28:
+flags=0x0
+lastSignalKind=0xFFFF8350
+state=0x1
+signalIndex=0
+owner=0x1A7DC510
+termList (0x1A7FDBC8): n=2: 1A7FDD08,1A7DA908,
+label=0x00000000
+wireID=0x0
+wireTable=0x1A5E70CC
+compDiagSig=0x1A7D9B28
+simDiagSig=0x1A7D9B28
+source InvalidMode(0x0)
+description=0x00000000
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7d9c48:
+flags=0x170142
+owner=0x1A7FDD08
+partID[16]= Name Label
+masterPart[0]= No PartID
+partOrder=0
+howGrow=0x1000
+image [IMAGE] 0xFB2A061A (kPiccImage)
+bounds= tlbr(148, 354, 165, 509) (in panel coords tlbr(148, 354, 165, 509))
+fgColor=0x1000000
+bgColor=0x1000000
+textRec=0x1B8EBC40
+ flags = 0x8D00
+ mode = 0x4404 (tOverlapped | tRW | tTop | kLeftJustify | tWord)
+ fontRunColor = 0x0, bgColor= 0x1000000
+ text handle = 0x1B8EBFF0
+ viewrect= tlbr(149, 355, 164, 508)
+ docrect= (149,356,164,508)
+textLen= 25
+text= "PhoenixMotorControlDevRef"
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7da4e8:
+flags=0x4000
+owner=0x1A7DC510
+shortCount=1
+termList (0x1A7DB550): n=2: 1A7DBE90,1A7FDD08,
+clumpNum=20003
+label=0x00000000
+untouched
+MSDebugPossible=false
+groupID=0
+NodeIdx=1
+Hilite state: 0 'finished'
+Probe flag: 0 'No probe'
+SStep flag: 0 ''
+description=0x00000000
+bounds= tlbr(0, 0, 0, 0)
+
+
+
+
+Object 0x1a7d9ca8:
+flags=0x4000
+owner=0x1A7DC510
+shortCount=1
+termList (0x1A7FDC08): n=1: 1A7DBE90,
+clumpNum=20003
+label=0x00000000
+untouched
+MSDebugPossible=false
+groupID=0
+Hilite state: 0 'finished'
+Probe flag: 0 'No probe'
+SStep flag: 0 ''
+description=0x00000000
+bounds= tlbr(0, 0, 0, 0)
+
+
+
+
+Object 0x1a7da908:
+flags = 0x8000
+owner=0x1A7DA128
+ownerSig=0x1A7D9B28
+DCO=0x1A7DBB50
+inPlace=0x00000000
+
+
+
+
+Object 0x1a468de8:
+flags = 0x0
+owner=0x1A7DA128
+ownerSig=0x00000000
+DCO=0x1A7DBB50
+inPlace=0x00000000
+
+
+
+
+Object 0x1a7db550:
+List (0x1A7DB550): n=2: 1A7DBE90,1A7FDD08,
+
+
+
+
+Object 0x1a7fdc08:
+List (0x1A7FDC08): n=1: 1A7DBE90,
+
+
+
+
+Object 0x1a7db590:
+List (0x1A7DB590): n=4: 1A7FDD08,1A7DA008,1A7DA128,1A7DBE90,
+
+
+
+
+Object 0x1a7fdc48:
+List (0x1A7FDC48): n=3: 1A7DA008,1A7DA128,1A7DBE90,
+
+
+
+
+Object 0x1a7dc510:
+flags=0x84A84
+owner=0x00000000
+nodeList (0x1A7DBAD0): n=3: 1A7DA4E8,1A7DA128,1A7DA008,
+signalList (0x1A468E20): n=1: 1A7D9B28,
+zPlaneList (0x1A7DB590): n=4: 1A7FDD08,1A7DA008,1A7DA128,1A7DBE90,
+bkgnd color=FFFFFF
+firstNodeIdx=0
+numDebugNodes=0
+
+
+
+
+Object 0x1a7fdd88:
+flags=0x84284
+owner=0x00000000
+nodeList (0x1A7DBAD0): n=3: 1A7DA4E8,1A7DA128,1A7DA008,
+signalList (0x1A468E90): n=0: 
+zPlaneList (0x1A7FDC48): n=3: 1A7DA008,1A7DA128,1A7DBE90,
+bkgnd color=FFFFFF
+firstNodeIdx=0
+numDebugNodes=0
+
+
+
+
+Object 0x1a7fdbc8:
+List (0x1A7FDBC8): n=2: 1A7FDD08,1A7DA908,
+
+
+
+
+Object 0x00000000:
+
+
+
+Object 0x1a7fdd08:
+flags = 0x4020040
+owner=0x1A7DA4E8
+ownerSig=0x1A7D9B28
+DCO [FPHP] 0x1AF17600
+inPlace=0x00000000
+label=0x1A7D9C48
+bounds= tlbr(165, 354, 203, 392)
+hotPoint= hv(373,184)
+
+
+
+
+Object 0x00000000:
+
+
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Delete
+Window Move
+Create
+Text Edit
+Connector Pane
+Move
+Create
+Create
+Text Edit
+Move
+Delete
+Wiring
+Create
+Text Edit
+Move
+Window Move
+Move
+Connector Pane
+Delete
+Delete
+Wiring
+Create
+Create
+
+Text Edit
+Move
+Connector Pane
+Move
+Create
+Text Edit
+Move
+Maximize
+Move
+Connector Pane
+Create
+Text Edit
+Move
+Connector Pane
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Delete
+Window Move
+Create
+Text Edit
+Connector Pane
+Move
+Create
+Create
+Text Edit
+Move
+Delete
+Wiring
+Create
+Text Edit
+Move
+Window Move
+Move
+Connector Pane
+Delete
+Delete
+Wiring
+Create
+Create
+
+Text Edit
+Move
+Connector Pane
+Move
+Create
+Text Edit
+Move
+Maximize
+Move
+Connector Pane
+Create
+Text Edit
+Move
+Connector Pane
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Delete
+Window Move
+Create
+Text Edit
+Connector Pane
+Move
+Create
+Create
+Text Edit
+Move
+Delete
+Wiring
+Create
+Text Edit
+Move
+Window Move
+Move
+Connector Pane
+Delete
+Delete
+Wiring
+Create
+Create
+
+Text Edit
+Move
+Connector Pane
+Move
+Create
+Text Edit
+Move
+Maximize
+Move
+Connector Pane
+Create
+Text Edit
+Move
+Connector Pane
+Window Size
+Maximize
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Delete
+Window Move
+Create
+Text Edit
+Connector Pane
+Move
+Create
+Create
+Text Edit
+Move
+Delete
+Wiring
+Create
+Text Edit
+Move
+Window Move
+Move
+Connector Pane
+Delete
+Delete
+Wiring
+Create
+Create
+
+Text Edit
+Move
+Connector Pane
+Move
+Create
+Text Edit
+Move
+Maximize
+Move
+Connector Pane
+Create
+Text Edit
+Move
+Connector Pane
+Window Size
+Maximize
+Maximize
+Move
+Move
+Move
+Move
+Move
+Move
+Create
+Text Edit
+
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Delete
+Window Move
+Create
+Text Edit
+Connector Pane
+Move
+Create
+Create
+Text Edit
+Move
+Delete
+Wiring
+Create
+Text Edit
+Move
+Window Move
+Move
+Connector Pane
+Delete
+Delete
+Wiring
+Create
+Create
+
+Text Edit
+Move
+Connector Pane
+Move
+Create
+Text Edit
+Move
+Maximize
+Move
+Connector Pane
+Create
+Text Edit
+Move
+Connector Pane
+Window Size
+Maximize
+Maximize
+Move
+Move
+Move
+Move
+Move
+Move
+Create
+Text Edit
+
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Create
+Move
+Wiring
+Move
+Wiring
+Wiring
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+
+
+
+
+Undo stack (oldest to most recent): 
+Text Edit
+Move
+Maximize
+Move
+Connector Pane
+Create
+Text Edit
+Move
+Connector Pane
+Window Size
+Maximize
+Maximize
+Move
+Move
+Move
+Move
+Move
+Move
+Create
+Text Edit
+
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Create
+Move
+Wiring
+Move
+Wiring
+Wiring
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Wiring
+Create
+Data Change
+Create
+Data Change
+Move
+Move
+Move
+Move
+Delete
+Wiring
+Delete
+Create
+Delete
+Create
+Wiring
+Wiring
+Wiring
+Move
+Move
+Create
+Resize
+Move
+Create
+Wiring
+Wiring
+Wiring
+Move
+
+
+
+
+Undo stack (oldest to most recent): 
+Move
+Move
+Move
+Move
+Create
+Move
+Create
+Move
+Wiring
+Move
+Wiring
+Wiring
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Wiring
+Create
+Data Change
+Create
+Data Change
+Move
+Move
+Move
+Move
+Delete
+Wiring
+Delete
+Create
+Delete
+Create
+Wiring
+Wiring
+Wiring
+Move
+Move
+Create
+Resize
+Move
+Create
+Wiring
+Wiring
+Wiring
+Move
+Wiring
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Delete
+Wiring
+Create
+Create
+Data Change
+Move
+Wiring
+Wiring
+Wiring
+Create
+Create
+Data Change
+Wiring
+Wiring
+Delete
+Wiring
+Create
+Move
+Move
+Move
+Move
+Wiring
+Move
+Create
+Wiring
+Move
+Wiring
+Wiring
+Create
+Wiring
+
+
+
+
+Undo stack (oldest to most recent): 
+Move
+Wiring
+Move
+Wiring
+Wiring
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Wiring
+Create
+Data Change
+Create
+Data Change
+Move
+Move
+Move
+Move
+Delete
+Wiring
+Delete
+Create
+Delete
+Create
+Wiring
+Wiring
+Wiring
+Move
+Move
+Create
+Resize
+Move
+Create
+Wiring
+Wiring
+Wiring
+Move
+Wiring
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Delete
+Wiring
+Create
+Create
+Data Change
+Move
+Wiring
+Wiring
+Wiring
+Create
+Create
+Data Change
+Wiring
+Wiring
+Delete
+Wiring
+Create
+Move
+Move
+Move
+Move
+Wiring
+Move
+Create
+Wiring
+Move
+Wiring
+Wiring
+Create
+Wiring
+Wiring
+Wiring
+Wiring
+Delete
+Wiring
+
+Redo stack: 
+Cleanup
+
+
+
+
+Undo stack (oldest to most recent): 
+Wiring
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Wiring
+Create
+Data Change
+Create
+Data Change
+Move
+Move
+Move
+Move
+Delete
+Wiring
+Delete
+Create
+Delete
+Create
+Wiring
+Wiring
+Wiring
+Move
+Move
+Create
+Resize
+Move
+Create
+Wiring
+Wiring
+Wiring
+Move
+Wiring
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Delete
+Wiring
+Create
+Create
+Data Change
+Move
+Wiring
+Wiring
+Wiring
+Create
+Create
+Data Change
+Wiring
+Wiring
+Delete
+Wiring
+Create
+Move
+Move
+Move
+Move
+Wiring
+Move
+Create
+Wiring
+Move
+Wiring
+Wiring
+Create
+Wiring
+Wiring
+Wiring
+Wiring
+Delete
+Wiring
+Move
+Create
+Move
+Wiring
+Move
+
+
+
+
+Undo stack (oldest to most recent): 
+Wiring
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Wiring
+Create
+Data Change
+Create
+Data Change
+Move
+Move
+Move
+Move
+Delete
+Wiring
+Delete
+Create
+Delete
+Create
+Wiring
+Wiring
+Wiring
+Move
+Move
+Create
+Resize
+Move
+Create
+Wiring
+Wiring
+Wiring
+Move
+Wiring
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Delete
+Wiring
+Create
+Create
+Data Change
+Move
+Wiring
+Wiring
+Wiring
+Create
+Create
+Data Change
+Wiring
+Wiring
+Delete
+Wiring
+Create
+Move
+Move
+Move
+Move
+Wiring
+Move
+Create
+Wiring
+Move
+Wiring
+Wiring
+Create
+Wiring
+Wiring
+Wiring
+Wiring
+Delete
+Wiring
+Move
+Create
+Move
+Wiring
+Move
+
+
+
+
+Undo stack (oldest to most recent): 
+Create
+Move
+Data Change
+Create
+Move
+Move
+Move
+Create
+Text Edit
+Connector Pane
+Move
+Move
+Move
+Move
+Move
+Create
+Move
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Wiring
+Create
+Data Change
+Create
+Data Change
+Move
+Move
+Move
+Move
+Delete
+Wiring
+Delete
+Create
+Delete
+Create
+Wiring
+Wiring
+Wiring
+Move
+Move
+Create
+Resize
+Move
+Create
+Wiring
+Wiring
+Wiring
+Move
+Wiring
+Move
+Create
+Wiring
+Wiring
+Move
+Move
+Delete
+Wiring
+Create
+Create
+Data Change
+Move
+Wiring
+Wiring
+Wiring
+Create
+Create
+Data Change
+Wiring
+Wiring
+Delete
+Wiring
+Create
+Move
+Move
+Move
+Move
+Wiring
+Move
+Create
+Wiring
+Move
+Wiring
+Wiring
+Create
+Wiring
+Wiring
+Wiring
+Wiring
+Delete
+Wiring
+Move
+Create
+Move
+Wiring
+Move
+Resize
+Change Attribute
+stopping LabVIEW Execution System 2 Thread 0 , capacity: 24 at [3600204052.21990919, (19:40:52.219909192 2018:01:30)]
+stopping LabVIEW Execution System 2 Thread 1 , capacity: 24 at [3600204052.21990919, (19:40:52.219909192 2018:01:30)]
+stopping LabVIEW Execution System 2 Thread 2 , capacity: 24 at [3600204052.21990919, (19:40:52.219909192 2018:01:30)]
+stopping LabVIEW Execution System 2 Thread 3 , capacity: 24 at [3600204052.21990919, (19:40:52.219909192 2018:01:30)]
+Possible path leak, unable to purge elements of base #0

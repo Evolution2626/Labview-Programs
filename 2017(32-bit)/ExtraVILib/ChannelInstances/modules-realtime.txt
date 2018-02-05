@@ -1,0 +1,1 @@
+The presence of this file indicates to the Channel Wire infrastructure the real-time module is installed. If this file is touched, the Channel implementations may be regenerated.
